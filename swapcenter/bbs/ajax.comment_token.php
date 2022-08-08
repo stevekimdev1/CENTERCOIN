@@ -1,13 +1,3 @@
-<?php
-include_once('./_common.php');
-include_once(G5_LIB_PATH.'/json.lib.php');
-
-$ss_name = 'ss_comment_token';
-
-set_session($ss_name, '');
-
-$token = _token();
-
-set_session($ss_name, $token);
-
-die(json_encode(array('token'=>$token)));
+version https://git-lfs.github.com/spec/v1
+oid sha256:d82fe757b887203f468c5688a3697825b16d72512b4e4f68fd9554cf571f2e2c
+size 234

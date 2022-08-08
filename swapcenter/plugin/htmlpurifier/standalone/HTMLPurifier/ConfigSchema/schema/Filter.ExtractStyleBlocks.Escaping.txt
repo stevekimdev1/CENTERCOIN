@@ -1,14 +1,3 @@
-Filter.ExtractStyleBlocks.Escaping
-TYPE: bool
-VERSION: 3.0.0
-DEFAULT: true
-ALIASES: Filter.ExtractStyleBlocksEscaping, FilterParam.ExtractStyleBlocksEscaping
---DESCRIPTION--
-
-<p>
-  Whether or not to escape the dangerous characters &lt;, &gt; and &amp;
-  as \3C, \3E and \26, respectively. This is can be safely set to false
-  if the contents of StyleBlocks will be placed in an external stylesheet,
-  where there is no risk of it being interpreted as HTML.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e5bc2008c4657686868e74d74e79b80c5a84ccd0cd4a8a10c918cf0bc78519a
+size 485

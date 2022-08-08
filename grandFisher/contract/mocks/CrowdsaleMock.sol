@@ -1,9 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../crowdsale/Crowdsale.sol";
-
-contract CrowdsaleMock is Crowdsale {
-    constructor (uint256 rate, address payable wallet, IERC20 token) public Crowdsale(rate, wallet, token) {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b333f243f6a81e86e0f3ed2d67524d787d12e2343f576c5cef0412c822f9faec
+size 275

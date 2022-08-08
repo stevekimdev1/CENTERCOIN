@@ -1,14 +1,3 @@
-Cache.DefinitionImpl
-TYPE: string/null
-VERSION: 2.0.0
-DEFAULT: 'Serializer'
---DESCRIPTION--
-
-This directive defines which method to use when caching definitions,
-the complex data-type that makes HTML Purifier tick. Set to null
-to disable caching (not recommended, as you will see a definite
-performance degradation).
-
---ALIASES--
-Core.DefinitionCache
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:1abefdc6f368904da566cf945f153a9b832ef62674b6bf42f49d53533c94070a
+size 374

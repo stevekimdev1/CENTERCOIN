@@ -1,18 +1,3 @@
-const { shouldSupportInterfaces } = require('./SupportsInterface.behavior');
-const shouldFail = require('../helpers/shouldFail');
-
-const KIP13Mock = artifacts.require('KIP13Mock');
-
-contract('KIP13', function () {
-  beforeEach(async function () {
-    this.mock = await KIP13Mock.new();
-  });
-
-  it('does not allow 0xffffffff', async function () {
-    await shouldFail.reverting.withMessage(this.mock.registerInterface('0xffffffff'), 'KIP13: invalid interface id');
-  });
-
-  shouldSupportInterfaces([
-    'KIP13',
-  ]);
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a64c806ce3b0089f083dfc098ff0997287f07eef0cf653bbbe21db4cf562144
+size 523

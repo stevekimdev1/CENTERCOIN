@@ -1,28 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales.mk = factory()));
-}(this, function () { 'use strict';
-
-    var mk = {
-        code: "mk",
-        buttonText: {
-            prev: "претходно",
-            next: "следно",
-            today: "Денес",
-            month: "Месец",
-            week: "Недела",
-            day: "Ден",
-            list: "График"
-        },
-        weekLabel: "Сед",
-        allDayText: "Цел ден",
-        eventLimitText: function (n) {
-            return "+повеќе " + n;
-        },
-        noEventsMessage: "Нема настани за прикажување"
-    };
-
-    return mk;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:90a8bedb1c3787e3cb761a27c999fec50424d1d9dac32e80a1a695beca56a039
+size 936

@@ -1,20 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "./RefundableCrowdsale.sol";
-import "./PostDeliveryCrowdsale.sol";
-
-
-/**
- * @title RefundablePostDeliveryCrowdsale
- * @dev Extension of RefundableCrowdsale contract that only delivers the tokens
- * once the crowdsale has closed and the goal met, preventing refunds to be issued
- * to token holders.
- */
-contract RefundablePostDeliveryCrowdsale is RefundableCrowdsale, PostDeliveryCrowdsale {
-    function withdrawTokens(address beneficiary) public {
-        require(finalized(), "RefundablePostDeliveryCrowdsale: not finalized");
-        require(goalReached(), "RefundablePostDeliveryCrowdsale: goal not reached");
-
-        super.withdrawTokens(beneficiary);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4a7da2220dd0573c7e1c60c7c51bf8be8db01ca7d2c98e3798dd340ff0a535f
+size 699

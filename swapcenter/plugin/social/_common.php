@@ -1,7 +1,3 @@
-<?php
-include_once('../../common.php');
-
-// 커뮤니티 사용여부
-if(defined('G5_COMMUNITY_USE') && G5_COMMUNITY_USE === false) {
-    define('_SHOP_', true);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:24178ac777bdbbd1ba18f9b9293bb43aedae0b1a7a3589fb8802024b60845b83
+size 163

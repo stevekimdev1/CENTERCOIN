@@ -1,14 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../token/ERC20/IERC20.sol";
-import "../crowdsale/validation/CappedCrowdsale.sol";
-
-contract CappedCrowdsaleImpl is CappedCrowdsale {
-    constructor (uint256 rate, address payable wallet, IERC20 token, uint256 cap)
-        public
-        Crowdsale(rate, wallet, token)
-        CappedCrowdsale(cap)
-    {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:95a772a4018b9724798c714cd3b1ebbb67260b27db66ea839020597c42446601
+size 402

@@ -1,32 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales.hr = factory()));
-}(this, function () { 'use strict';
-
-    var hr = {
-        code: "hr",
-        week: {
-            dow: 1,
-            doy: 7 // The week that contains Jan 1st is the first week of the year.
-        },
-        buttonText: {
-            prev: "Prijašnji",
-            next: "Sljedeći",
-            today: "Danas",
-            month: "Mjesec",
-            week: "Tjedan",
-            day: "Dan",
-            list: "Raspored"
-        },
-        weekLabel: "Tje",
-        allDayText: "Cijeli dan",
-        eventLimitText: function (n) {
-            return "+ još " + n;
-        },
-        noEventsMessage: "Nema događaja za prikaz"
-    };
-
-    return hr;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:25c04c2936323275c5d7cd97b3be08ea05ddef1fa0d74e1d0007c71ecf708f0c
+size 994

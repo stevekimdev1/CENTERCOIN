@@ -1,9 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../introspection/ERC1820Implementer.sol";
-
-contract ERC1820ImplementerMock is ERC1820Implementer {
-    function registerInterfaceForAddress(bytes32 interfaceHash, address account) public {
-        _registerInterfaceForAddress(interfaceHash, account);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6da635253ac3aab17fce86f9a185f908fc45faa17de42ac9c830c1adf6aec80f
+size 292

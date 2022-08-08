@@ -1,12 +1,3 @@
-Core.RemoveScriptContents
-TYPE: bool/null
-DEFAULT: NULL
-VERSION: 2.0.0
-DEPRECATED-VERSION: 2.1.0
-DEPRECATED-USE: Core.HiddenElements
---DESCRIPTION--
-<p>
-  This directive enables HTML Purifier to remove not only script tags
-  but all of their contents.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9c8e7ce9ce19c7f4caf0e8d0dbe29180ed27d06413fd6308ca4f96f011fe775
+size 280

@@ -1,5 +1,3 @@
-"pdf01","Doküman üretilme tarihi [[date_y]]-[[date_m]]-[[date_d]]"
-"pdf02","Doküman üretilme tarihi [[date_h]]:[[date_i]]"
-"pdf03","Doküman üretilme tarihi [[date_y]]-[[date_m]]-[[date_d]] saati [[date_h]]:[[date_i]]"
-"pdf04","Sayfa [[page_cu]]/[[page_nb]]"
-"pdf05","Adobe Reader 9 gerektirir"
+version https://git-lfs.github.com/spec/v1
+oid sha256:3c23dbdeaa4f5c36a8b31a5d857920512d646f100ce15b586605c47e75193dcb
+size 300

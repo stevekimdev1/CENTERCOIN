@@ -1,30 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales.el = factory()));
-}(this, function () { 'use strict';
-
-    var el = {
-        code: "el",
-        week: {
-            dow: 1,
-            doy: 4 // The week that contains Jan 4st is the first week of the year.
-        },
-        buttonText: {
-            prev: "Προηγούμενος",
-            next: "Επόμενος",
-            today: "Σήμερα",
-            month: "Μήνας",
-            week: "Εβδομάδα",
-            day: "Ημέρα",
-            list: "Ατζέντα"
-        },
-        weekLabel: "Εβδ",
-        allDayText: "Ολοήμερο",
-        eventLimitText: "περισσότερα",
-        noEventsMessage: "Δεν υπάρχουν γεγονότα προς εμφάνιση"
-    };
-
-    return el;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd494dcfcf2d23935204fb1d8712b24d35fecf458fdb3565a65c7da773d74a0a
+size 1066

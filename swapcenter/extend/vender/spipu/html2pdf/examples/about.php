@@ -1,34 +1,3 @@
-<?php
-/**
- * Html2Pdf Library - example
- *
- * HTML => PDF converter
- * distributed under the OSL-3.0 License
- *
- * @package   Html2pdf
- * @author    Laurent MINGUET <webmaster@html2pdf.fr>
- * @copyright 2017 Laurent MINGUET
- */
-require_once dirname(__FILE__).'/../vendor/autoload.php';
-
-use Spipu\Html2Pdf\Html2Pdf;
-use Spipu\Html2Pdf\Exception\Html2PdfException;
-use Spipu\Html2Pdf\Exception\ExceptionFormatter;
-
-try {
-    $html2pdf = new Html2Pdf('P', 'A4', 'fr', true, 'UTF-8', array(0, 0, 0, 0));
-    $html2pdf->pdf->SetDisplayMode('fullpage');
-
-    ob_start();
-    include dirname(__FILE__).'/res/about.php';
-    $content = ob_get_clean();
-
-    $html2pdf->writeHTML($content);
-    $html2pdf->createIndex('Sommaire', 30, 12, false, true, 2, null, '10mm');
-    $html2pdf->output('about.pdf');
-} catch (Html2PdfException $e) {
-    $html2pdf->clean();
-
-    $formatter = new ExceptionFormatter($e);
-    echo $formatter->getHtmlMessage();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b65e6f0cd2f1580cdcb46bcdb8b548a9d1cb15f5b90cea3b870913c129d3a267
+size 940

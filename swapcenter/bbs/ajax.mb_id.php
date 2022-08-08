@@ -1,15 +1,3 @@
-<?php
-include_once('./_common.php');
-include_once(G5_LIB_PATH.'/register.lib.php');
-
-$mb_id = isset($_POST['reg_mb_id']) ? trim($_POST['reg_mb_id']) : '';
-
-set_session('ss_check_mb_id', '');
-
-if ($msg = empty_mb_id($mb_id))     die($msg);
-if ($msg = valid_mb_id($mb_id))     die($msg);
-if ($msg = count_mb_id($mb_id))     die($msg);
-if ($msg = exist_mb_id($mb_id))     die($msg);
-if ($msg = reserve_mb_id($mb_id))   die($msg);
-
-set_session('ss_check_mb_id', $mb_id);
+version https://git-lfs.github.com/spec/v1
+oid sha256:049e9a63cea9eba1088e847dbec88c374688aaae2d778089506d5ad4d382e9c6
+size 466

@@ -1,24 +1,3 @@
-(function( factory ) {
-	if ( typeof define === "function" && define.amd ) {
-		define( ["jquery", "../jquery.validate"], factory );
-	} else if (typeof module === "object" && module.exports) {
-		module.exports = factory( require( "jquery" ) );
-	} else {
-		factory( jQuery );
-	}
-}(function( $ ) {
-
-/*
- * Localized default methods for the jQuery validation plugin.
- * Locale: FI
- */
-$.extend( $.validator.methods, {
-	date: function( value, element ) {
-		return this.optional( element ) || /^\d{1,2}\.\d{1,2}\.\d{4}$/.test( value );
-	},
-	number: function( value, element ) {
-		return this.optional( element ) || /^-?(?:\d+)(?:,\d+)?$/.test( value );
-	}
-} );
-return $;
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e4f6d0c97f1c1b3f8fd732a7f49cd77240028561264a9563279c9df9942a7d3
+size 667

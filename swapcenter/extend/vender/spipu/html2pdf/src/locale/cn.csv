@@ -1,5 +1,3 @@
-pdf01,文稿生成日期 [[date_y]]-[[date_m]]-[[date_d]]
-pdf02,文稿生成时间 [[date_h]]:[[date_i]]
-pdf03,文稿生成于 [[date_y]]-[[date_m]]-[[date_d]] at [[date_h]]:[[date_i]]
-pdf04,页 [[page_cu]]/[[page_nb]]
-pdf05,表单需要使用 Adobe Reader 9
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fcbe29fe48ac830fc9d2cacccd3204c1d427eb38edd7f31cd3b50a5763a0c84
+size 259

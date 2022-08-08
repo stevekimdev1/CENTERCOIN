@@ -1,18 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../access/roles/CapperRole.sol";
-
-contract CapperRoleMock is CapperRole {
-    function removeCapper(address account) public {
-        _removeCapper(account);
-    }
-
-    function onlyCapperMock() public view onlyCapper {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-
-    // Causes a compilation error if super._removeCapper is not internal
-    function _removeCapper(address account) internal {
-        super._removeCapper(account);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:df2296eed4eece78512537a2f1ca5ca9abf51a317e8eb0f8edeb6da420b94e61
+size 491

@@ -1,11 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../token/ERC20/IERC20.sol";
-import "../crowdsale/validation/IndividuallyCappedCrowdsale.sol";
-import "./CapperRoleMock.sol";
-
-contract IndividuallyCappedCrowdsaleImpl is IndividuallyCappedCrowdsale, CapperRoleMock {
-    constructor (uint256 rate, address payable wallet, IERC20 token) public Crowdsale(rate, wallet, token) {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b308a9b37506dfe285ee0ad25f2a2215c305e9d116b78e88ebc3a13dd95c38d2
+size 423

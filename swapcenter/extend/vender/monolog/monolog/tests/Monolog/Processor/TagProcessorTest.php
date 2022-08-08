@@ -1,29 +1,3 @@
-<?php
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Processor;
-
-use Monolog\TestCase;
-
-class TagProcessorTest extends TestCase
-{
-    /**
-     * @covers Monolog\Processor\TagProcessor::__invoke
-     */
-    public function testProcessor()
-    {
-        $tags = array(1, 2, 3);
-        $processor = new TagProcessor($tags);
-        $record = $processor($this->getRecord());
-
-        $this->assertEquals($tags, $record['extra']['tags']);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5ceddd4c59004de0ba80ab8b04b77b002c798ef9d41e3cf1b3b3e630056d14b
+size 644

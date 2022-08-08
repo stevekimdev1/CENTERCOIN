@@ -1,5 +1,3 @@
-"pdf01","Datei erstellt am [[date_d]].[[date_m]].[[date_y]]"
-"pdf02","Datei erstellt um [[date_h]]:[[date_m]]"
-"pdf03","Datei erstellt am [[date_d]].[[date_m]].[[date_y]] um [[date_h]]:[[date_i]]"
-"pdf04","Seite [[page_cu]]/[[page_nb]]"
-"pdf05","Die Formulare in dieser Datei benötigen den Adobe Reader 9"
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2eb1e443c6564d715cb71372eba8077869e4af2c74dabf261dfda1a01c6f380
+size 307

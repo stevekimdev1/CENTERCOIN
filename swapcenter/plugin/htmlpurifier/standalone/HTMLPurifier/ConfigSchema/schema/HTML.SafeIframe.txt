@@ -1,13 +1,3 @@
-HTML.SafeIframe
-TYPE: bool
-VERSION: 4.4.0
-DEFAULT: false
---DESCRIPTION--
-<p>
-    Whether or not to permit iframe tags in untrusted documents.  This
-    directive must be accompanied by a whitelist of permitted iframes,
-    such as %URI.SafeIframeRegexp, otherwise it will fatally error.
-    This directive has no effect on strict doctypes, as iframes are not
-    valid.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:938aeed97c6d9c76f03db211d83276100c86810b35c9c7a6eaa4e7635fa49889
+size 398

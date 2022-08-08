@@ -1,13 +1,3 @@
-<?php
-include_once('./_common.php');
-include_once(G5_LIB_PATH.'/json.lib.php');
-
-set_session('ss_admin_token', '');
-
-$error = admin_referer_check(true);
-if($error)
-    die(json_encode(array('error'=>$error, 'url'=>G5_URL)));
-
-$token = get_admin_token();
-
-die(json_encode(array('error'=>'', 'token'=>$token, 'url'=>'')));
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbcf2897398f553a94e48cfa1e43cc5b8291342a4eba70d9fb1a7fbc79552ffa
+size 320

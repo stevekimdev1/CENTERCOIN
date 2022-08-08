@@ -1,24 +1,3 @@
-#ifndef TRANSACTIONDESC_H
-#define TRANSACTIONDESC_H
-
-#include <QString>
-#include <QObject>
-#include <string>
-
-class CWallet;
-class CWalletTx;
-
-/** Provide a human-readable extended HTML description of a transaction.
- */
-class TransactionDesc: public QObject
-{
-    Q_OBJECT
-public:
-    static QString toHTML(CWallet *wallet, CWalletTx &wtx);
-private:
-    TransactionDesc() {}
-
-    static QString FormatTxStatus(const CWalletTx& wtx);
-};
-
-#endif // TRANSACTIONDESC_H
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9713e48a14fff05684f844d9ce89a4896d1d18088838bfa116a7456dd5b9cef
+size 489

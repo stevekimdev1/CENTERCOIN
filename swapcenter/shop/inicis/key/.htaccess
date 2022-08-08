@@ -1,2 +1,3 @@
-Order deny,allow
-Deny from all
+version https://git-lfs.github.com/spec/v1
+oid sha256:8fa23f6e2b049dfb54f38c8569a29bb73ceec16074c988bee024b9ebb47afad2
+size 30

@@ -1,16 +1,3 @@
-#include <QTest>
-#include <QObject>
-
-#include "uritests.h"
-
-// This is all you need to run all the tests
-int main(int argc, char *argv[])
-{
-    bool fInvalid = false;
-
-    URITests test1;
-    if (QTest::qExec(&test1) != 0)
-        fInvalid = true;
-
-    return fInvalid;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7e6a72ca9d408068e11221105834ed63bb359046afef468fd1786562e1e2964
+size 288

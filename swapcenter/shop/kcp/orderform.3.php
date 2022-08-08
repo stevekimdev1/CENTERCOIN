@@ -1,12 +1,3 @@
-<?php
-if (!defined("_GNUBOARD_")) exit; // 개별 페이지 접근 불가
-?>
-
-<div id="display_pay_button" class="btn_confirm">
-    <input type="button" value="주문하기" onclick="forderform_check(this.form);" class="btn_submit">
-    <a href="javascript:history.go(-1);" class="btn01">취소</a>
-</div>
-<div id="display_pay_process" style="display:none">
-    <img src="<?php echo G5_URL; ?>/shop/img/loading.gif" alt="">
-    <span>주문완료 중입니다. 잠시만 기다려 주십시오.</span>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb7f713246530d04f7150d3fddd956660b96c6c51b19b4f144d59725868f01e5
+size 508

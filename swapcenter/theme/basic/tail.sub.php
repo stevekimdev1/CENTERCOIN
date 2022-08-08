@@ -1,7 +1,3 @@
-<?php
-if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
-?>
-
-</body>
-</html>
-<?php echo html_end(); // HTML 마지막 처리 함수 : 반드시 넣어주시기 바랍니다.
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd17f45763a8f6fa5e81ec4f5bcdb6f4411bdac8424f3756a365a136949b6795
+size 191

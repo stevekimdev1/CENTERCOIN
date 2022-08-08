@@ -1,5 +1,3 @@
-"pdf01","Siden oprettet d. [[date_y]]-[[date_m]]-[[date_d]]"
-"pdf02","Siden oprettet d. [[date_h]]:[[date_i]]"
-"pdf03","Siden oprettet d. [[date_y]]-[[date_m]]-[[date_d]] at [[date_h]]:[[date_i]]"
-"pdf04","Side [[page_cu]]/[[page_nb]]"
-"pdf05","De formularer kræver brug af Adobe Reader 9"
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2df4ef2477bd1be0ac635e10160162ff6ae53f588308b8982f7ec90c40b803a
+size 291

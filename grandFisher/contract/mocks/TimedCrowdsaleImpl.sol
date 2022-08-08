@@ -1,18 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../token/ERC20/IERC20.sol";
-import "../crowdsale/validation/TimedCrowdsale.sol";
-
-contract TimedCrowdsaleImpl is TimedCrowdsale {
-    constructor (uint256 openingTime, uint256 closingTime, uint256 rate, address payable wallet, IERC20 token)
-        public
-        Crowdsale(rate, wallet, token)
-        TimedCrowdsale(openingTime, closingTime)
-    {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-
-    function extendTime(uint256 closingTime) public {
-        _extendTime(closingTime);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:208fdfb4e9f466616cfe70a2a3ecc5bb114756805a0912b0edcb082d7c021f3b
+size 543

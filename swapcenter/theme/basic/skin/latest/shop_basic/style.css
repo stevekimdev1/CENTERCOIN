@@ -1,12 +1,3 @@
-@charset "utf-8";
-/* 새글 스킨 (latest) */
-.lat {position:relative;}
-.lat ul {margin:0 0 10px;padding:0;list-style:none;border:1px solid #e5e5e5}
-.lat li {border-top:1px solid #f3f3f3;padding:10px}
-.lat li:first-child{border:0}
-.lat li i{color:#9da4bc}
-.lat li .fa-heart{color:#ff0000}
-.lat li .new_icon{display:inline-block;padding: 0 3px;line-height:14px ;font-size:0.833em;color:#fff;background:#c56bed}
-.lat li .cnt_cmt{color:#ff3970}
-.lat_title {display:block;padding:10px 0 8px;font-size:1.167em}
-.lat_more {position:absolute;top:10px;right:0;}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f8a81b90f2c282eb623847b812b9afe990f0b2674bcaa001d2ef3759b63be5d
+size 555

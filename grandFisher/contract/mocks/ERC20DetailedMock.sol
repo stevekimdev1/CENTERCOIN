@@ -1,13 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../token/ERC20/ERC20.sol";
-import "../token/ERC20/ERC20Detailed.sol";
-
-contract ERC20DetailedMock is ERC20, ERC20Detailed {
-    constructor (string memory name, string memory symbol, uint8 decimals)
-        public
-        ERC20Detailed(name, symbol, decimals)
-    {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b0b5494b75abf5fffad1d23d883aa0c69fc3010c06ed79f8850f860cae3b03c
+size 364

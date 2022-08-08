@@ -1,3 +1,3 @@
-<!-- 해당 페이지는 사용자가 ISP{국민/BC) 카드 결제를 중단하였을 때, 사용자에게 보여지는 페이지입니다. -->
-
-사용자가 ISP(국민/BC) 카드결제을 중단하였습니다.
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d946c20f6f8c17f2728704a8a3042319bc2686de7028abd64e96a7e09c71cd4
+size 211

@@ -1,30 +1,3 @@
-#include "aboutdialog.h"
-#include "ui_aboutdialog.h"
-#include "clientmodel.h"
-
-#include "version.h"
-
-AboutDialog::AboutDialog(QWidget *parent) :
-    QDialog(parent),
-    ui(new Ui::AboutDialog)
-{
-    ui->setupUi(this);
-}
-
-void AboutDialog::setModel(ClientModel *model)
-{
-    if(model)
-    {
-        ui->versionLabel->setText(model->formatFullVersion());
-    }
-}
-
-AboutDialog::~AboutDialog()
-{
-    delete ui;
-}
-
-void AboutDialog::on_buttonBox_accepted()
-{
-    close();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b382bf8ad14ea4e4a6698d7b585c8d30218d744bd0e090fe65037dad46edfce3
+size 500

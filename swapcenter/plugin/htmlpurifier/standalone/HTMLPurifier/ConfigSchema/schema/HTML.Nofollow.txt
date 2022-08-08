@@ -1,7 +1,3 @@
-HTML.Nofollow
-TYPE: bool
-VERSION: 4.3.0
-DEFAULT: FALSE
---DESCRIPTION--
-If enabled, nofollow rel attributes are added to all outgoing links.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:900bc2b6a789ddce0f974b75d205381ddac2efbdea4f19f264db16d03a12ec53
+size 163

@@ -1,12 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "./KIP7Mintable.sol";
-import "./KIP7Burnable.sol";
-import "./KIP7Pausable.sol";
-import "./KIP7Metadata.sol";
-
-contract KIP7Token is KIP7Mintable, KIP7Burnable, KIP7Pausable, KIP7Metadata {
-    constructor(string memory name, string memory symbol, uint8 decimals, uint256 initialSupply) KIP7Metadata(name, symbol, decimals) public {
-        _mint(msg.sender, initialSupply);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:21f9796646d72943f95511973dd8c85f69c8c419c96836420fd4d7d6c91b0571
+size 413

@@ -1,9 +1,3 @@
-HTML.Trusted
-TYPE: bool
-VERSION: 2.0.0
-DEFAULT: false
---DESCRIPTION--
-Indicates whether or not the user input is trusted or not. If the input is
-trusted, a more expansive set of allowed tags and attributes will be used.
-See also %CSS.Trusted.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:78ce7c299bcf9989e686f3e16839ed01a2833bf0c6809632fe3d02bacd427639
+size 266

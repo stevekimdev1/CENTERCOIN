@@ -1,14 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "./IERC721.sol";
-
-/**
- * @title ERC-721 Non-Fungible Token Standard, optional enumeration extension
- * @dev See https://eips.ethereum.org/EIPS/eip-721
- */
-contract IERC721Enumerable is IERC721 {
-    function totalSupply() public view returns (uint256);
-    function tokenOfOwnerByIndex(address owner, uint256 index) public view returns (uint256 tokenId);
-
-    function tokenByIndex(uint256 index) public view returns (uint256);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa3e76dd6eac02320e2f21c0a1dbefecba2e4d174a0fb4ca5cd6e6892b324bea
+size 462

@@ -1,5 +1,3 @@
-Attr.IDBlacklist
-TYPE: list
-DEFAULT: array()
-DESCRIPTION: Array of IDs not allowed in the document.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:d128c5429319d56da0b14fe7f0b93870343e54526980db53608b0e0bdef3b85f
+size 123

@@ -1,14 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "./IKIP17.sol";
-
-/**
- * @title KIP-17 Non-Fungible Token Standard, optional enumeration extension
- * @dev See http://kips.klaytn.com/KIPs/kip-17-non_fungible_token
- */
-contract IKIP17Enumerable is IKIP17 {
-    function totalSupply() public view returns (uint256);
-    function tokenOfOwnerByIndex(address owner, uint256 index) public view returns (uint256 tokenId);
-
-    function tokenByIndex(uint256 index) public view returns (uint256);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:26dcc428331bfd62c542de6b41433752acd904e6db4fcdf54c9874178c315073
+size 473

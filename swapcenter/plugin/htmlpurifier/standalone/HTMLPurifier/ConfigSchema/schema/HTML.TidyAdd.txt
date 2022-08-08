@@ -1,8 +1,3 @@
-HTML.TidyAdd
-TYPE: lookup
-VERSION: 2.0.0
-DEFAULT: array()
---DESCRIPTION--
-
-Fixes to add to the default set of Tidy fixes as per your level.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:d15aa928e7eeccdad56464a246af982bdbc06af22e70080e88aea31ab2200e75
+size 163

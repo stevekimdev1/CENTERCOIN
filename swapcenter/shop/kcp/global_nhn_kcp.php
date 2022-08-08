@@ -1,9 +1,3 @@
-<?php
-if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
-
-// 타 PG 사용시 NHN KCP 네이버페이 사용이 설정되어 있는지 체크, 그렇지 않다면 return;
-if( !(function_exists('is_use_easypay') && is_use_easypay('global_nhnkcp')) ){
-    return;
-}
-
-include_once(G5_SHOP_PATH.'/settle_kcp.inc.php');
+version https://git-lfs.github.com/spec/v1
+oid sha256:939c1beaa98c5caa0a97c068ff21d9da611a9b757a2ebaff0717325dbb8527ec
+size 331

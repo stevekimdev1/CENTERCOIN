@@ -1,14 +1,3 @@
-// This script can be used to deploy the "Storage" contract using Web3 library.
-// Please make sure to compile "./contracts/1_Storage.sol" file before running this script.
-// And use Right click -> "Run" from context menu of the file to run the script. Shortcut: Ctrl+Shift+S
-
-import { deploy } from './web3-lib'
-
-(async () => {
-    try {
-        const result = await deploy('Storage', [])
-        console.log(`address: ${result.address}`)
-    } catch (e) {
-        console.log(e.message)
-    }
-})()
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec60a00f4f068f0ec6e21b2919087d8e216c0ebe697c0e84119747eab9ea1cf5
+size 499

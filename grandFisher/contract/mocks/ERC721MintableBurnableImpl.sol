@@ -1,15 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../token/ERC721/ERC721Full.sol";
-import "../token/ERC721/ERC721Mintable.sol";
-import "../token/ERC721/ERC721MetadataMintable.sol";
-import "../token/ERC721/ERC721Burnable.sol";
-
-/**
- * @title ERC721MintableBurnableImpl
- */
-contract ERC721MintableBurnableImpl is ERC721Full, ERC721Mintable, ERC721MetadataMintable, ERC721Burnable {
-    constructor () public ERC721Mintable() ERC721Full("Test", "TEST") {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b45a5414fc585314380b1047488bbfeef17d57a5a051f6884c649ceff0fa5123
+size 500

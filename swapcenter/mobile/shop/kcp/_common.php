@@ -1,6 +1,3 @@
-<?php
-include_once('../../../common.php');
-
-if (!defined('G5_USE_SHOP') || !G5_USE_SHOP)
-    die('<p>쇼핑몰 설치 후 이용해 주십시오.</p>');
-define('_SHOP_', true);
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e5005403c39033fe7a94a6076ba6ddbf0e29d0c7878e5a9110167ee3cfed5b6
+size 176

@@ -1,36 +1,3 @@
-//
-// Component: Alert
-//
-
-.alert {
-  .icon {
-    margin-right: 10px;
-  }
-
-  .close {
-    color: $black;
-    opacity: .2;
-
-    &:hover {
-      opacity: .5;
-    }
-  }
-
-  a {
-    color: $white;
-    text-decoration: underline;
-  }
-}
-
-//Alert Variants
-@each $color, $value in $theme-colors {
-  .alert-#{$color} {
-    color: color-yiq($value);
-    background-color: $value;
-    border-color: darken($value, 5%);
-  }
-
-  .alert-default-#{$color} {
-    @include alert-variant(theme-color-level($color, $alert-bg-level), theme-color-level($color, $alert-border-level), theme-color-level($color, $alert-color-level));
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:77e1a4db501ca8da795068cf81249c705bccddf9abcb38c2ef9500fd7a152505
+size 614

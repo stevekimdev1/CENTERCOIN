@@ -1,15 +1,3 @@
-<?php
-include_once('./_common.php');
-include_once(G5_CAPTCHA_PATH.'/captcha.lib.php');
-
-if ($is_member) {
-    alert("이미 로그인중입니다.");
-}
-
-$g5['title'] = '회원정보 찾기';
-include_once(G5_PATH.'/head.sub.php');
-
-$action_url = G5_HTTPS_BBS_URL."/password_lost2.php";
-include_once($member_skin_path.'/password_lost.skin.php');
-
-include_once(G5_PATH.'/tail.sub.php');
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa0d48e572548909c7b25de702d2abdf523b420b5410ad38a94fc09bf52e3f11
+size 383

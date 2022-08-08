@@ -1,32 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales.uk = factory()));
-}(this, function () { 'use strict';
-
-    var uk = {
-        code: "uk",
-        week: {
-            dow: 1,
-            doy: 7 // The week that contains Jan 1st is the first week of the year.
-        },
-        buttonText: {
-            prev: "Попередній",
-            next: "далі",
-            today: "Сьогодні",
-            month: "Місяць",
-            week: "Тиждень",
-            day: "День",
-            list: "Порядок денний"
-        },
-        weekLabel: "Тиж",
-        allDayText: "Увесь день",
-        eventLimitText: function (n) {
-            return "+ще " + n + "...";
-        },
-        noEventsMessage: "Немає подій для відображення"
-    };
-
-    return uk;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ac0b0d65cba2d26841b39ccb9b56ac54a67650b959ec8ebd5a664f5e8e73c7b
+size 1100

@@ -1,13 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "./IERC721.sol";
-
-/**
- * @title ERC-721 Non-Fungible Token Standard, optional metadata extension
- * @dev See https://eips.ethereum.org/EIPS/eip-721
- */
-contract IERC721Metadata is IERC721 {
-    function name() external view returns (string memory);
-    function symbol() external view returns (string memory);
-    function tokenURI(uint256 tokenId) external view returns (string memory);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb131a00fb23627546792225d33669dd7bec6b9dd1062ccc15fdf75561c8e4a3
+size 422

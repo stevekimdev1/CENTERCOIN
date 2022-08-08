@@ -1,3 +1,3 @@
-<?php
-if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가 
-include_once(G5_PATH.'/head.sub.php');
+version https://git-lfs.github.com/spec/v1
+oid sha256:542c1828c7b0de0c9a862a0527591fc458634ac65f01a42bdcbff6b8078eb3f9
+size 113

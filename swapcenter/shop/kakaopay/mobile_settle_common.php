@@ -1,4 +1,3 @@
-<?php
-include_once('./_common.php');
-
-// 카카오페이 (KG 이니시스) 의 경우 NOTI 과정이 없으므로 이 페이지를 사용하지 않습니다.
+version https://git-lfs.github.com/spec/v1
+oid sha256:649480199276a0ed1a69abe6c45d2a64600755bcf84d24e467024b32c3510357
+size 157

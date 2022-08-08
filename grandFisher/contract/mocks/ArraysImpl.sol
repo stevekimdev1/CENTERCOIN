@@ -1,17 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../utils/Arrays.sol";
-
-contract ArraysImpl {
-    using Arrays for uint256[];
-
-    uint256[] private array;
-
-    constructor (uint256[] memory _array) public {
-        array = _array;
-    }
-
-    function findUpperBound(uint256 _element) external view returns (uint256) {
-        return array.findUpperBound(_element);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b960a0d1f6b6d7370590c5e1d6965c943ef2f30f54d8f4cb6cafb410f61435b
+size 358

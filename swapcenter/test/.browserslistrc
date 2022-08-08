@@ -1,10 +1,3 @@
-# https://github.com/browserslist/browserslist#readme
-
->= 0.2%
-last 2 major versions
-not dead
-Firefox ESR
-Edge >= 16
-Explorer >= 10
-iOS >= 9
-Safari >= 9
+version https://git-lfs.github.com/spec/v1
+oid sha256:7eeabb32cf8a66355e6d5f690f7bd4a3a98783a26c23293eed35055c19eb3bb9
+size 153

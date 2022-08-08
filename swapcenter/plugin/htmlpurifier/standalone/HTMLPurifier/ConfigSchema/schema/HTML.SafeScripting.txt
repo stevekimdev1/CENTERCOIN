@@ -1,10 +1,3 @@
-HTML.SafeScripting
-TYPE: lookup
-VERSION: 4.5.0
-DEFAULT: array()
---DESCRIPTION--
-<p>
-    Whether or not to permit script tags to external scripts in documents.
-    Inline scripting is not allowed, and the script must match an explicit whitelist.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:1250b72f39bc9c796fb418ae61311666f740b075017b43dc658235a51e45a5b7
+size 273

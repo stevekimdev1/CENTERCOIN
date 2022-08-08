@@ -1,11 +1,3 @@
-AutoFormat.RemoveEmpty.RemoveNbsp.Exceptions
-TYPE: lookup
-VERSION: 4.0.0
-DEFAULT: array('td' => true, 'th' => true)
---DESCRIPTION--
-<p>
-  When %AutoFormat.RemoveEmpty and %AutoFormat.RemoveEmpty.RemoveNbsp
-  are enabled, this directive defines what HTML elements should not be
-  removede if they have only a non-breaking space in them.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f51ac90e937bdaaf88c68bc174065f07a5ad1e585eeec4996cc1e72a6e3fc23
+size 364

@@ -1,28 +1,3 @@
-#ifndef ABOUTDIALOG_H
-#define ABOUTDIALOG_H
-
-#include <QDialog>
-
-namespace Ui {
-    class AboutDialog;
-}
-class ClientModel;
-
-/** "About" dialog box */
-class AboutDialog : public QDialog
-{
-    Q_OBJECT
-
-public:
-    explicit AboutDialog(QWidget *parent = 0);
-    ~AboutDialog();
-
-    void setModel(ClientModel *model);
-private:
-    Ui::AboutDialog *ui;
-
-private slots:
-    void on_buttonBox_accepted();
-};
-
-#endif // ABOUTDIALOG_H
+version https://git-lfs.github.com/spec/v1
+oid sha256:edcbcfba6d6f5cfcf8670dbc841efe0665d7b9d3a357b795da31814bd1c492da
+size 457

@@ -1,28 +1,3 @@
-#include "coincontroltreewidget.h"
-#include "coincontroldialog.h"
-
-CoinControlTreeWidget::CoinControlTreeWidget(QWidget *parent) :
-    QTreeWidget(parent)
-{
-
-}
-
-void CoinControlTreeWidget::keyPressEvent(QKeyEvent *event)
-{
-    if (event->key() == Qt::Key_Space) // press spacebar -> select checkbox
-    {
-        event->ignore();
-        int COLUMN_CHECKBOX = 0;
-        this->currentItem()->setCheckState(COLUMN_CHECKBOX, ((this->currentItem()->checkState(COLUMN_CHECKBOX) == Qt::Checked) ? Qt::Unchecked : Qt::Checked));
-    }
-    else if (event->key() == Qt::Key_Escape) // press esc -> close dialog
-    {
-        event->ignore();
-        CoinControlDialog *coinControlDialog = (CoinControlDialog*)this->parentWidget();
-        coinControlDialog->done(QDialog::Accepted);
-    }
-    else
-    {
-        this->QTreeWidget::keyPressEvent(event);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f1e5a4bf08a1c3b7ce9894a150d5747d9eaa37a24295ebb2be288355390de795
+size 879

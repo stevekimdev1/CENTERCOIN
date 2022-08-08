@@ -1,22 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../token/ERC20/IERC20.sol";
-import "../crowdsale/distribution/RefundableCrowdsale.sol";
-
-contract RefundableCrowdsaleImpl is RefundableCrowdsale {
-    constructor (
-        uint256 openingTime,
-        uint256 closingTime,
-        uint256 rate,
-        address payable wallet,
-        IERC20 token,
-        uint256 goal
-    )
-        public
-        Crowdsale(rate, wallet, token)
-        TimedCrowdsale(openingTime, closingTime)
-        RefundableCrowdsale(goal)
-    {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:133541c49ef7a34b79a0ac531c4d6f801be3f769fb0c45cb9192eb2cc4c6987e
+size 567

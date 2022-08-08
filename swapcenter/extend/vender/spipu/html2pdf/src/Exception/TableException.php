@@ -1,25 +1,3 @@
-<?php
-/**
- * Html2Pdf Library - Exception class
- *
- * HTML => PDF converter
- * distributed under the OSL-3.0 License
- *
- * @package   Html2pdf
- * @author    Laurent MINGUET <webmaster@html2pdf.fr>
- * @copyright 2017 Laurent MINGUET
- */
-
-namespace Spipu\Html2Pdf\Exception;
-
-/**
- * Table Exception
- */
-class TableException extends Html2PdfException
-{
-    /**
-     * ERROR CODE 4
-     * @var int
-     */
-    const ERROR_CODE = 4;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d27fd95df82baec1a96220e8bbbaf88ef53f0f529146f58c0acb23feea83d6c9
+size 430

@@ -1,10 +1,3 @@
-<?php
-//SMS5 메인
-include_once('./_common.php');
-
-$g5['title'] = "SMS5";
-include_once(G5_PATH.'/head.sub.php');
-
-include_once("./write.php");
-
-include_once(G5_PATH.'/tail.sub.php');
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe5212d763b0e5a66fcd8681e4918b380f7a166395942211be3ed97b12f1e4e1
+size 183

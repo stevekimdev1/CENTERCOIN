@@ -1,31 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales['ar-ma'] = factory()));
-}(this, function () { 'use strict';
-
-    var arMa = {
-        code: "ar-ma",
-        week: {
-            dow: 6,
-            doy: 12 // The week that contains Jan 1st is the first week of the year.
-        },
-        dir: 'rtl',
-        buttonText: {
-            prev: "السابق",
-            next: "التالي",
-            today: "اليوم",
-            month: "شهر",
-            week: "أسبوع",
-            day: "يوم",
-            list: "أجندة"
-        },
-        weekLabel: "أسبوع",
-        allDayText: "اليوم كله",
-        eventLimitText: "أخرى",
-        noEventsMessage: "أي أحداث لعرض"
-    };
-
-    return arMa;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f431429d6b0a39954849befe19d9abb97dfdb69d4b607f2c4eb827f1467cc64
+size 1013

@@ -1,12 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xrds:XRDS  
-    xmlns:xrds="xri://$xrds"  
-    xmlns:openid="http://openid.net/xmlns/1.0"  
-    xmlns="xri://$xrd*($v*2.0)">  
-    <XRD>  
-        <Service priority="1">  
-            <Type>http://specs.openid.net/auth/2.0/return_to</Type>  
-            <URI>{RETURN_TO_URL}</URI>  
-        </Service>  
-    </XRD>  
-</xrds:XRDS>
+version https://git-lfs.github.com/spec/v1
+oid sha256:24abc409eed62485e440ea5cd5cc9549894d518df0d165d36a7e6056de9269b2
+size 369

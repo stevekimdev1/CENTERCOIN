@@ -1,11 +1,3 @@
-// Copyright (c) 2012 The LevelDB Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file. See the AUTHORS file for names of contributors.
-
-#include "leveldb/filter_policy.h"
-
-namespace leveldb {
-
-FilterPolicy::~FilterPolicy() { }
-
-}  // namespace leveldb
+version https://git-lfs.github.com/spec/v1
+oid sha256:744628bcf55e7644502b9586473ab0577bf8663fbd3ea99355dbdc7d03f6374e
+size 333

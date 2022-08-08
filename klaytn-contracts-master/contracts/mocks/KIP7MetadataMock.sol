@@ -1,13 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../token/KIP7/KIP7.sol";
-import "../token/KIP7/KIP7Metadata.sol";
-
-contract KIP7MetadataMock is KIP7, KIP7Metadata {
-    constructor (string memory name, string memory symbol, uint8 decimals)
-        public
-        KIP7Metadata(name, symbol, decimals)
-    {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:44c4669ddbe599a75bd2f0c74454fba361c650a85a5b8626472349df9a01461f
+size 356

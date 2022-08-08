@@ -1,33 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales.de = factory()));
-}(this, function () { 'use strict';
-
-    var de = {
-        code: "de",
-        week: {
-            dow: 1,
-            doy: 4 // The week that contains Jan 4th is the first week of the year.
-        },
-        buttonText: {
-            prev: "Zurück",
-            next: "Vor",
-            today: "Heute",
-            year: "Jahr",
-            month: "Monat",
-            week: "Woche",
-            day: "Tag",
-            list: "Terminübersicht"
-        },
-        weekLabel: "KW",
-        allDayText: "Ganztägig",
-        eventLimitText: function (n) {
-            return "+ weitere " + n;
-        },
-        noEventsMessage: "Keine Ereignisse anzuzeigen"
-    };
-
-    return de;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8360a2177c1c8924d180834dbd07ff28ebd9d3333a62af9c8500134f1f861c7
+size 1022

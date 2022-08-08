@@ -1,20 +1,3 @@
-#include "transactiondescdialog.h"
-#include "ui_transactiondescdialog.h"
-
-#include "transactiontablemodel.h"
-
-#include <QModelIndex>
-
-TransactionDescDialog::TransactionDescDialog(const QModelIndex &idx, QWidget *parent) :
-    QDialog(parent),
-    ui(new Ui::TransactionDescDialog)
-{
-    ui->setupUi(this);
-    QString desc = idx.data(TransactionTableModel::LongDescriptionRole).toString();
-    ui->detailText->setHtml(desc);
-}
-
-TransactionDescDialog::~TransactionDescDialog()
-{
-    delete ui;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:66bb23e1364546f62787ecb7f51df07a028afc088cfa0d09e29656b244680875
+size 515

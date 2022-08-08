@@ -1,31 +1,3 @@
-#ifndef MONITOREDDATAMAPPER_H
-#define MONITOREDDATAMAPPER_H
-
-#include <QDataWidgetMapper>
-
-QT_BEGIN_NAMESPACE
-class QWidget;
-QT_END_NAMESPACE
-
-/** Data to Widget mapper that watches for edits and notifies listeners when a field is edited.
-   This can be used, for example, to enable a commit/apply button in a configuration dialog.
- */
-class MonitoredDataMapper : public QDataWidgetMapper
-{
-    Q_OBJECT
-public:
-    explicit MonitoredDataMapper(QObject *parent=0);
-
-    void addMapping(QWidget *widget, int section);
-    void addMapping(QWidget *widget, int section, const QByteArray &propertyName);
-private:
-    void addChangeMonitor(QWidget *widget);
-
-signals:
-    void viewModified();
-
-};
-
-
-
-#endif // MONITOREDDATAMAPPER_H
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b28662eba3dad5135c843a2ee8cd2e1fc37061276529c57e411851c60ec7e7d
+size 758

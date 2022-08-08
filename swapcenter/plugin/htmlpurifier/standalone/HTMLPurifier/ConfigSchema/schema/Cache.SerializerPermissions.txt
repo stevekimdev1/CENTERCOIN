@@ -1,16 +1,3 @@
-Cache.SerializerPermissions
-TYPE: int/null
-VERSION: 4.3.0
-DEFAULT: 0755
---DESCRIPTION--
-
-<p>
-    Directory permissions of the files and directories created inside
-    the DefinitionCache/Serializer or other custom serializer path.
-</p>
-<p>
-    In HTML Purifier 4.8.0, this also supports <code>NULL</code>,
-    which means that no chmod'ing or directory creation shall
-    occur.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d8670052506053c12f32bbef964688ae988ffb0c98a489ac1381fd8db8427ad
+size 407

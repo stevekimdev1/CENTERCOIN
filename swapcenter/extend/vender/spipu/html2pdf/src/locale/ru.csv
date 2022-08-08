@@ -1,5 +1,3 @@
-"pdf01","Документ сгенерирован [[date_y]]-[[date_m]]-[[date_d]]"
-"pdf02","Документ сгенерирован в [[date_h]]:[[date_i]]"
-"pdf03","Документ сгенерирован [[date_y]]-[[date_m]]-[[date_d]] в [[date_h]]:[[date_i]]"
-"pdf04","Страница [[page_cu]]/[[page_nb]]"
-"pdf05","Формы требуют использования Adobe Reader 9"
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ff88ffd8a522e28eefc634352ec758e734fcbbb2e74a44470e94625bbc9b3c2
+size 401

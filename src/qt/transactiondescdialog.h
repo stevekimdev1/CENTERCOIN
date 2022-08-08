@@ -1,26 +1,3 @@
-#ifndef TRANSACTIONDESCDIALOG_H
-#define TRANSACTIONDESCDIALOG_H
-
-#include <QDialog>
-
-namespace Ui {
-    class TransactionDescDialog;
-}
-QT_BEGIN_NAMESPACE
-class QModelIndex;
-QT_END_NAMESPACE
-
-/** Dialog showing transaction details. */
-class TransactionDescDialog : public QDialog
-{
-    Q_OBJECT
-
-public:
-    explicit TransactionDescDialog(const QModelIndex &idx, QWidget *parent = 0);
-    ~TransactionDescDialog();
-
-private:
-    Ui::TransactionDescDialog *ui;
-};
-
-#endif // TRANSACTIONDESCDIALOG_H
+version https://git-lfs.github.com/spec/v1
+oid sha256:c15e4845e33fd3de8f079ad5fe70a5ae41dd61a363146c0bb2ecfdd024372e1d
+size 523

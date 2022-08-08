@@ -1,8 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../token/KIP7/KIP7Mintable.sol";
-import "./MinterRoleMock.sol";
-
-contract KIP7MintableMock is KIP7Mintable, MinterRoleMock {
-    // solhint-disable-previous-line no-empty-blocks
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0de883870f207eff35b708e45dce3b3ce33f3f01a4cbd2e53c0b24fae1a1b75c
+size 213

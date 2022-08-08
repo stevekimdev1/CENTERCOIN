@@ -1,34 +1,3 @@
-<?php
-/**
- * Html2Pdf Library - Tests
- *
- * HTML => PDF converter
- * distributed under the OSL-3.0 License
- *
- * @package   Html2pdf
- * @author    Laurent MINGUET <webmaster@html2pdf.fr>
- * @copyright 2017 Laurent MINGUET
- */
-
-namespace Spipu\Html2Pdf\Tests\Tag\Svg;
-
-use Spipu\Html2Pdf\Tests\AbstractTest;
-
-/**
- * Class PolygonErrorTest
- */
-class PolygonErrorTest extends AbstractTest
-{
-    /**
-     * test
-     *
-     * @return void
-     * @expectedException \Spipu\Html2Pdf\Exception\HtmlParsingException
-     */
-    public function testCase()
-    {
-        $object = $this->getObject();
-        $object->writeHTML('<polygon />');
-        $object->output('test.pdf', 'S');
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:04229dda092a771e23485360e7566348099c151d6bf2968ccf42246179fae4d8
+size 684

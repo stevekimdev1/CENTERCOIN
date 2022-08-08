@@ -1,14 +1,3 @@
-<?php
-include_once("./_common.php");
-
-if (!$is_member) die("0");
-
-$as_id = isset($_REQUEST['as_id']) ? (int)$_REQUEST['as_id'] : 0;
-
-$sql = " delete from {$g5['autosave_table']} where mb_id = '{$member['mb_id']}' and as_id = {$as_id} ";
-$result = sql_query($sql);
-if (!$result) {
-    echo "-1";
-}
-
-echo autosave_count($member['mb_id']);
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5bc9b8b5e10fcea84645c3da7689543dbfd8b5af92f1d8aaa28ddb938df33d4
+size 336

@@ -1,5 +1,3 @@
-function toggleWriteability(id_of_patient, checked) {
-    document.getElementById(id_of_patient).disabled = checked;
-}
-
-// vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:aef2d12317af2e659e9c782c04f71ae23b17fecb2516b3605af5d2f81cedc003
+size 142

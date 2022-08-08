@@ -1,10 +1,3 @@
-// -------------------------------------------------------
-// CHEditor WebGL Vertex Shader
-// -------------------------------------------------------
-attribute vec2 a_position;
-uniform vec2 u_resolution;
-
-void main() {
-    vec2 clipSpace = (a_position / u_resolution * 2.0) - 1.0;
-    gl_Position = vec4(clipSpace * vec2(1, -1), 0, 1);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d541f5297bc86d7775cd3d21073687e7f6877f36f306e7d8d65733200e45bd6e
+size 338

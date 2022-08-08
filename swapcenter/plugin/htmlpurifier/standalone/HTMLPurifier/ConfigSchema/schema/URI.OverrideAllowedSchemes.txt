@@ -1,9 +1,3 @@
-URI.OverrideAllowedSchemes
-TYPE: bool
-DEFAULT: true
---DESCRIPTION--
-If this is set to true (which it is by default), you can override
-%URI.AllowedSchemes by simply registering a HTMLPurifier_URIScheme to the
-registry.  If false, you will also have to update that directive in order
-to add more schemes.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:02b38a42478261684cb39f05329f70fb2875fe0957195b7bdfa95aeba4f973c1
+size 326

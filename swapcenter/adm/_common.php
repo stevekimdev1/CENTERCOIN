@@ -1,10 +1,3 @@
-<?php
-define('G5_IS_ADMIN', true);
-include_once ('../common.php');
-include_once(G5_ADMIN_PATH.'/admin.lib.php');
-
-if( isset($token) ){
-    $token = @htmlspecialchars(strip_tags($token), ENT_QUOTES);
-}
-
-run_event('admin_common');
+version https://git-lfs.github.com/spec/v1
+oid sha256:3680ea6118a5d7acab3289dc869c3745c8a77bcda46c0eff65fb5fbe1f0d31ca
+size 228

@@ -1,11 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../token/KIP7/KIP7Pausable.sol";
-import "./PauserRoleMock.sol";
-
-// mock class using KIP7Pausable
-contract KIP7PausableMock is KIP7Pausable, PauserRoleMock {
-    constructor (address initialAccount, uint initialBalance) public {
-        _mint(initialAccount, initialBalance);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:48693fae65f4caf6fbe8c9a934c24afe4ec7849b8d7b8bf71a97633e95b53680
+size 317

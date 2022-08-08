@@ -1,11 +1,3 @@
-URI.DisableExternal
-TYPE: bool
-VERSION: 1.2.0
-DEFAULT: false
---DESCRIPTION--
-Disables links to external websites.  This is a highly effective anti-spam
-and anti-pagerank-leech measure, but comes at a hefty price: nolinks or
-images outside of your domain will be allowed.  Non-linkified URIs will
-still be preserved.  If you want to be able to link to subdomains or use
-absolute URIs, specify %URI.Host for your website.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:e545c25242a77000cf1fbfb428ca9d7e3ecf901662b7434ce29141a92af6789c
+size 443

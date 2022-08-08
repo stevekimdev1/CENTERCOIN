@@ -1,25 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../token/ERC777/ERC777.sol";
-
-contract ERC777Mock is ERC777 {
-    constructor(
-        address initialHolder,
-        uint256 initialBalance,
-        string memory name,
-        string memory symbol,
-        address[] memory defaultOperators
-    ) public ERC777(name, symbol, defaultOperators) {
-        _mint(msg.sender, initialHolder, initialBalance, "", "");
-    }
-
-    function mintInternal (
-        address operator,
-        address to,
-        uint256 amount,
-        bytes memory userData,
-        bytes memory operatorData
-    ) public {
-        _mint(operator, to, amount, userData, operatorData);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2da3cc3ddfb9b32d022debf81f433548d5494972e0219e051c1803c6a925d43
+size 649

@@ -1,8 +1,3 @@
-Attr.DefaultInvalidImageAlt
-TYPE: string
-DEFAULT: 'Invalid image'
---DESCRIPTION--
-This is the content of the alt tag of an invalid image if the user had not
-previously specified an alt attribute.  It has no effect when the image is
-valid but there was no alt attribute present.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:e58695da84e9f5099a51cad742931aac613284e4699632edf2083f1b1deae4c7
+size 301

@@ -1,16 +1,3 @@
-const { BN } = require('openzeppelin-test-helpers');
-
-const { shouldBehaveLikeKIP7Burnable } = require('./behaviors/KIP7Burnable.behavior');
-const KIP7BurnableMock = artifacts.require('KIP7BurnableMock');
-
-contract('KIP7Burnable', function ([_, owner, ...otherAccounts]) {
-  const initialBalance = new BN(1000);
-
-  console.log("owner", owner)
-
-  beforeEach(async function () {
-    this.token = await KIP7BurnableMock.new(owner, initialBalance, { from: owner });
-  });
-
-  shouldBehaveLikeKIP7Burnable(owner, initialBalance, otherAccounts);
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:c71d08a0ce2d3723add89a3a9876d762b4cdf964535f830ea3493377aa9cb71e
+size 543

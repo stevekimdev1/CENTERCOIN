@@ -1,3 +1,3 @@
-<?php if (!defined('_GNUBOARD_')) exit; ?>
-
-YTozOntzOjQ6InRpbWUiO2k6MTY1MDIzNDA4MztzOjM6InR0bCI7aTozNjAwO3M6NDoiZGF0YSI7YToyOntzOjQ6Imxpc3QiO2E6MDp7fXM6MTA6ImJvX3N1YmplY3QiO3M6MDoiIjt9fQ==
+version https://git-lfs.github.com/spec/v1
+oid sha256:25c5e3268ed54799be77cbbcbad8013b6f89396e239d5e7eaa0ab9faa2a3ef1e
+size 188

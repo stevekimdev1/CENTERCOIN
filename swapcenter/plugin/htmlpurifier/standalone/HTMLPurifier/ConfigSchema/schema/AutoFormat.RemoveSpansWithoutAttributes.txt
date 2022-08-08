@@ -1,11 +1,3 @@
-AutoFormat.RemoveSpansWithoutAttributes
-TYPE: bool
-VERSION: 4.0.1
-DEFAULT: false
---DESCRIPTION--
-<p>
-  This directive causes <code>span</code> tags without any attributes
-  to be removed. It will also remove spans that had all attributes
-  removed during processing.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5e929b542d9760baa5fdf6f368c13771bb6269507c137d644f18931c08336e5
+size 295

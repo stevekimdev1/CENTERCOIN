@@ -1,4 +1,3 @@
-<?php
-if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
-
-include_once(G5_MOBILE_PATH.'/tail.php');
+version https://git-lfs.github.com/spec/v1
+oid sha256:4fef6df2ae01e6af62a1324eb01d6d8f7bb5143497e0b59fb18a57e2e94560da
+size 116

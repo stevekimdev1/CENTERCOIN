@@ -1,14 +1,3 @@
-<?php
-
-require_once('../libs/INIStdPayUtil.php');
-
-$SignatureUtil = new INIStdPayUtil();
-
-$input = "oid=" . $_REQUEST["oid"] . "&price=" . $_REQUEST["price"] . "&timestamp=" . $_REQUEST["timestamp"];
-
-$output['signature'] = array(
-    ///'signature' => $SignatureUtil->makeHash($input, "sha256")
-    'signature' => hash("sha256", $input)
-);
-
-echo json_encode($output);
+version https://git-lfs.github.com/spec/v1
+oid sha256:f07a2d08f2acd3448e61c6013e07900908269d0c43d834e8ce01e0f35f4c96f8
+size 368

@@ -1,15 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../cryptography/ECDSA.sol";
-
-contract ECDSAMock {
-    using ECDSA for bytes32;
-
-    function recover(bytes32 hash, bytes memory signature) public pure returns (address) {
-        return hash.recover(signature);
-    }
-
-    function toEthSignedMessageHash(bytes32 hash) public pure returns (bytes32) {
-        return hash.toEthSignedMessageHash();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0589f519000b77e42d7435aad6a108f818ebb869b3f4d8f5cf4dc15796d1dff4
+size 387

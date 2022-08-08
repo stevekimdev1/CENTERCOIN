@@ -1,11 +1,3 @@
-<?php
-
-/**
- * Exceptions related to configuration schema
- */
-class HTMLPurifier_ConfigSchema_Exception extends HTMLPurifier_Exception
-{
-
-}
-
-// vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:33d5f07950cd39d377eb4d2f3bf319880ed727b1eebec9632121a40cda2af1ec
+size 162

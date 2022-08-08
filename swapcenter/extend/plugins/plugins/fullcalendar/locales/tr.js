@@ -1,30 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales.tr = factory()));
-}(this, function () { 'use strict';
-
-    var tr = {
-        code: "tr",
-        week: {
-            dow: 1,
-            doy: 7 // The week that contains Jan 1st is the first week of the year.
-        },
-        buttonText: {
-            prev: "geri",
-            next: "ileri",
-            today: "bugün",
-            month: "Ay",
-            week: "Hafta",
-            day: "Gün",
-            list: "Ajanda"
-        },
-        weekLabel: "Hf",
-        allDayText: "Tüm gün",
-        eventLimitText: "daha fazla",
-        noEventsMessage: "Gösterilecek etkinlik yok"
-    };
-
-    return tr;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef56e5d2b711722490e2164463a9783279fa05baade7fa9edd69f883af5f158d
+size 933

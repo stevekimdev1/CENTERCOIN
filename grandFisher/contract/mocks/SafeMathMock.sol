@@ -1,25 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../math/SafeMath.sol";
-
-contract SafeMathMock {
-    function mul(uint256 a, uint256 b) public pure returns (uint256) {
-        return SafeMath.mul(a, b);
-    }
-
-    function div(uint256 a, uint256 b) public pure returns (uint256) {
-        return SafeMath.div(a, b);
-    }
-
-    function sub(uint256 a, uint256 b) public pure returns (uint256) {
-        return SafeMath.sub(a, b);
-    }
-
-    function add(uint256 a, uint256 b) public pure returns (uint256) {
-        return SafeMath.add(a, b);
-    }
-
-    function mod(uint256 a, uint256 b) public pure returns (uint256) {
-        return SafeMath.mod(a, b);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9fe4b298a2816c1b7df9bff79d8c426fd57f84e3c1bd3fe7333fc9004c64926b
+size 647

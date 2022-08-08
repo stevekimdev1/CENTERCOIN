@@ -1,19 +1,3 @@
-require('openzeppelin-test-helpers');
-
-const { shouldBehaveLikeKIP17 } = require('./KIP17.behavior');
-const {
-  shouldBehaveLikeMintAndBurnKIP17,
-} = require('./KIP17MintBurn.behavior');
-
-const KIP17BurnableImpl = artifacts.require('KIP17MintableBurnableImpl.sol');
-
-contract('KIP17Burnable', function ([_, creator, ...accounts]) {
-  const minter = creator;
-
-  beforeEach(async function () {
-    this.token = await KIP17BurnableImpl.new({ from: creator });
-  });
-
-  shouldBehaveLikeKIP17(creator, minter, accounts);
-  shouldBehaveLikeMintAndBurnKIP17(creator, minter, accounts);
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:80ec9a712ba96fd6ccf72d866d60991deb9117e9c40dedfc23c77830299d650f
+size 583

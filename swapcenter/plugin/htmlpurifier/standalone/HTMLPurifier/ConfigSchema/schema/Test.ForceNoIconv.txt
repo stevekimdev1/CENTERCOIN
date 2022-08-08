@@ -1,7 +1,3 @@
-Test.ForceNoIconv
-TYPE: bool
-DEFAULT: false
---DESCRIPTION--
-When set to true, HTMLPurifier_Encoder will act as if iconv does not exist
-and use only pure PHP implementations.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fff9c2ec0643aafc62af42ddb936963d967b2b957bfa524a6ac7d9872794a81
+size 197

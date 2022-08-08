@@ -1,5 +1,3 @@
-"pdf01","Document generated on [[date_y]]-[[date_m]]-[[date_d]]"
-"pdf02","Document generated at [[date_h]]:[[date_i]]"
-"pdf03","Document generated on [[date_y]]-[[date_m]]-[[date_d]] at [[date_h]]:[[date_i]]"
-"pdf04","Page [[page_cu]]/[[page_nb]]"
-"pdf05","The forms require the use of Adobe Reader 9"
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6db5faa0749e2d12b234f27cea392febd55e7153b096630d0ab093808df7457
+size 302

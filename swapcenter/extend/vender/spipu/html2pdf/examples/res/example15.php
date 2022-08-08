@@ -1,23 +1,3 @@
-<style type="text/css">
-<!--
-div {
-    border: solid 2mm red;
-}
-
-div.content-1 {
-    background: green;
-}
-
-
-div.content-2 {
-    background: blue;
-}
-
--->
-</style>
-<page>
-    <div class="content-[[page_cu]]">Page [[page_cu]]</div>
-</page>
-<page>
-    <div class="content-[[page_cu]]">Page [[page_cu]]</div>
-</page>
+version https://git-lfs.github.com/spec/v1
+oid sha256:664c503eddb48dc0708e39b34329d280835d95102b6eccc70fd42625c45cc4e4
+size 312

@@ -1,12 +1,3 @@
-<?php
-
-// private language message file for unit testing purposes
-// this language file has no class associated with it
-
-$fallback = 'en';
-
-$messages = array(
-    'HTMLPurifier' => 'HTML Purifier XNone'
-);
-
-// vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ca0a29d988700a4d2b1bcb6b025b360ea28ae78efaa2630cae7e7649dc58bc2
+size 229

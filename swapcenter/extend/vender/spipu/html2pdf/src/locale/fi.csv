@@ -1,5 +1,3 @@
-"pdf01","Dokumentti luotu [[date_y]]-[[date_m]]-[[date_d]]"
-"pdf02","Dokumentti luotu [[date_h]]:[[date_i]]"
-"pdf03","Dokumentti luotu [[date_y]]-[[date_m]]-[[date_d]] klo [[date_h]]:[[date_i]]"
-"pdf04","Sivu [[page_cu]]/[[page_nb]]"
-"pdf05","Lomakkeet edellyttävät Adobe Reader 9 käyttöä"
+version https://git-lfs.github.com/spec/v1
+oid sha256:916310051edf926664ea2ee7c59d1220deab9d593016b34c0c85ac61f2f218dc
+size 295

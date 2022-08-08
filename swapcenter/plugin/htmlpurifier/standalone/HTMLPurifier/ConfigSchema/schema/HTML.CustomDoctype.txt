@@ -1,9 +1,3 @@
-HTML.CustomDoctype
-TYPE: string/null
-VERSION: 2.0.1
-DEFAULT: NULL
---DESCRIPTION--
-
-A custom doctype for power-users who defined their own document
-type. This directive only applies when %HTML.Doctype is blank.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:78fffebda10c9852a391a4b402b6f664a693b37e521b040847dca7a17758b699
+size 233

@@ -1,30 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales.lt = factory()));
-}(this, function () { 'use strict';
-
-    var lt = {
-        code: "lt",
-        week: {
-            dow: 1,
-            doy: 4 // The week that contains Jan 4th is the first week of the year.
-        },
-        buttonText: {
-            prev: "Atgal",
-            next: "Pirmyn",
-            today: "Šiandien",
-            month: "Mėnuo",
-            week: "Savaitė",
-            day: "Diena",
-            list: "Darbotvarkė"
-        },
-        weekLabel: "SAV",
-        allDayText: "Visą dieną",
-        eventLimitText: "daugiau",
-        noEventsMessage: "Nėra įvykių rodyti"
-    };
-
-    return lt;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d97ddaf335b41f8c35f66f5d41d4b6aee776566bf63263d98365406209a81c0
+size 948

@@ -1,13 +1,3 @@
-HTML.SafeObject
-TYPE: bool
-VERSION: 3.1.1
-DEFAULT: false
---DESCRIPTION--
-<p>
-    Whether or not to permit object tags in documents, with a number of extra
-    security features added to prevent script execution. This is similar to
-    what websites like MySpace do to object tags.  You should also enable
-    %Output.FlashCompat in order to generate Internet Explorer
-    compatibility code for your object tags.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2ceafa7b95a44d87c888633eaf8cae1af17030a928ec52db4df13451f1c42f2
+size 441

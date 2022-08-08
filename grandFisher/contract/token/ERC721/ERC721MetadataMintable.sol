@@ -1,24 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "./ERC721Metadata.sol";
-import "../../access/roles/MinterRole.sol";
-
-
-/**
- * @title ERC721MetadataMintable
- * @dev ERC721 minting logic with metadata.
- */
-contract ERC721MetadataMintable is ERC721, ERC721Metadata, MinterRole {
-    /**
-     * @dev Function to mint tokens.
-     * @param to The address that will receive the minted tokens.
-     * @param tokenId The token id to mint.
-     * @param tokenURI The token URI of the minted token.
-     * @return A boolean that indicates if the operation was successful.
-     */
-    function mintWithTokenURI(address to, uint256 tokenId, string memory tokenURI) public onlyMinter returns (bool) {
-        _mint(to, tokenId);
-        _setTokenURI(tokenId, tokenURI);
-        return true;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:edab5783946b48299f8e09a881b8b0d613f017b48f281b6d00a73498dd969d93
+size 769

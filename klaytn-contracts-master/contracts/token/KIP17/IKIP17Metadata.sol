@@ -1,13 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "./IKIP17.sol";
-
-/**
- * @title KIP-17 Non-Fungible Token Standard, optional metadata extension
- * @dev See http://kips.klaytn.com/KIPs/kip-17-non_fungible_token
- */
-contract IKIP17Metadata is IKIP17 {
-    function name() external view returns (string memory);
-    function symbol() external view returns (string memory);
-    function tokenURI(uint256 tokenId) external view returns (string memory);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1579a3441b3d3dd57bda2b1b7d198a96bc6b777a7539e51db3e5cbf0ae8b8006
+size 433

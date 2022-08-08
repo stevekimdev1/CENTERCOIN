@@ -1,11 +1,3 @@
-<?php
-include_once('./_common.php');
-include_once(G5_LIB_PATH.'/json.lib.php');
-
-$token_case = isset($_POST['token_case']) ? preg_replace('/[^0-9a-z_]/i', '', $_POST['token_case']) : '';
-
-if( $token_case ){
-    $token = _token();
-    set_session('ss_'.$token_case.'_token', $token);
-    die(json_encode(array('error'=>'', 'token'=>$token, 'url'=>'')));
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4f01f3ed04c0299ddd890007bb3acb7eb0251fa0b78c91f610404b2e2708038
+size 354

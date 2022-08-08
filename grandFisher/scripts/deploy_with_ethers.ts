@@ -1,14 +1,3 @@
-// This script can be used to deploy the "Storage" contract using ethers.js library.
-// Please make sure to compile "./contracts/1_Storage.sol" file before running this script.
-// And use Right click -> "Run" from context menu of the file to run the script. Shortcut: Ctrl+Shift+S
-
-import { deploy } from './ethers-lib'
-
-(async () => {
-    try {
-        const result = await deploy('Storage', [])
-        console.log(`address: ${result.address}`)
-    } catch (e) {
-        console.log(e.message)
-    }
-  })()
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6c7e1d414d9163008a50eeab36d84fbf4d078e94c8c8f3e693e7cba69397afb
+size 508

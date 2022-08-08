@@ -1,10 +1,3 @@
-<?php
-
-/**
- * @file
- * A single location to store configuration.
- */
-
-define('CONSUMER_KEY', 'CONSUMER_KEY_HERE');
-define('CONSUMER_SECRET', 'CONSUMER_SECRET_HERE');
-define('OAUTH_CALLBACK', 'http://example.com/twitteroauth/callback.php');
+version https://git-lfs.github.com/spec/v1
+oid sha256:716f39523785e84962c12e8f7871cf413067ba4640aebb40c6f0e962621d5edb
+size 240

@@ -1,33 +1,3 @@
-<?php
-/**
- * Html2Pdf Library - Tests
- *
- * HTML => PDF converter
- * distributed under the OSL-3.0 License
- *
- * @package   Html2pdf
- * @author    Laurent MINGUET <webmaster@html2pdf.fr>
- * @copyright 2017 Laurent MINGUET
- */
-
-namespace Spipu\Html2Pdf\Tests\Parsing;
-
-use Spipu\Html2Pdf\Parsing\Token;
-
-/**
- * Class TokenTest
- */
-class TokenTest extends \PHPUnit_Framework_TestCase
-{
-
-    /**
-     * Test if it works
-     */
-    public function testOk()
-    {
-        $token = new Token('hello', 'world', 45);
-        $this->assertSame('hello', $token->getType());
-        $this->assertSame('world', $token->getData());
-        $this->assertSame(45, $token->getLine());
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fde5d58ac99bc22a9b0f9eaf24afe9f2742d2b3a9ee2fe5c8309d82f7f5f208a
+size 678

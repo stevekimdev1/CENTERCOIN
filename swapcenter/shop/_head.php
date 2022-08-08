@@ -1,7 +1,3 @@
-<?php
-if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
-
-if(G5_IS_MOBILE)
-    include_once(G5_MSHOP_PATH.'/shop.head.php');
-else
-    include_once(G5_SHOP_PATH.'/shop.head.php');
+version https://git-lfs.github.com/spec/v1
+oid sha256:1073d0332e82e7f4191c70b157bfbf04985c06eb19c9f815a5154642cc5187ef
+size 195

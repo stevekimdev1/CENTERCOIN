@@ -1,19 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../introspection/KIP13Checker.sol";
-
-contract KIP13CheckerMock {
-    using KIP13Checker for address;
-
-    function supportsKIP13(address account) public view returns (bool) {
-        return account._supportsKIP13();
-    }
-
-    function supportsInterface(address account, bytes4 interfaceId) public view returns (bool) {
-        return account._supportsInterface(interfaceId);
-    }
-
-    function supportsAllInterfaces(address account, bytes4[] memory interfaceIds) public view returns (bool) {
-        return account._supportsAllInterfaces(interfaceIds);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ec7cf61f7b0623a2603331aa58325ad9fb59b4510189aae271121cf4c074af2
+size 596

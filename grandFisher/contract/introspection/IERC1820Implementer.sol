@@ -1,17 +1,3 @@
-pragma solidity ^0.5.0;
-
-/**
- * @dev Interface for an ERC1820 implementer, as defined in the
- * [EIP](https://eips.ethereum.org/EIPS/eip-1820#interface-implementation-erc1820implementerinterface).
- * Used by contracts that will be registered as implementers in the
- * `IERC1820Registry`.
- */
-interface IERC1820Implementer {
-    /**
-     * @dev Returns a special value (`ERC1820_ACCEPT_MAGIC`) if this contract
-     * implements `interfaceHash` for `account`.
-     *
-     * See `IERC1820Registry.setInterfaceImplementer`.
-     */
-    function canImplementInterfaceForAddress(bytes32 interfaceHash, address account) external view returns (bytes32);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d633875daf48f6bbe8c169baf95b6291d81a842e613109f80ebcd3ae5738c636
+size 649

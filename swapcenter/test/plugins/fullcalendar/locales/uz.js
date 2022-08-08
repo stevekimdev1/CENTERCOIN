@@ -1,24 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales.uz = factory()));
-}(this, function () { 'use strict';
-
-    var uz = {
-        code: "uz",
-        buttonText: {
-            month: "Oy",
-            week: "Xafta",
-            day: "Kun",
-            list: "Kun tartibi"
-        },
-        allDayText: "Kun bo'yi",
-        eventLimitText: function (n) {
-            return "+ yana " + n;
-        },
-        noEventsMessage: "Ko'rsatish uchun voqealar yo'q"
-    };
-
-    return uz;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:7530933a5d9282117a93229a04280839814c6751c79f9bbf7aa638e297cef097
+size 749

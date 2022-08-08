@@ -1,9 +1,3 @@
-<?php
-if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
-
-//삼성페이 또는 Lpay 사용시에만 해당함
-if( ! is_inicis_simple_pay() || ('inicis' == $default['de_pg_service']) ){    //PG가 이니시스인 경우 아래 내용 사용 안함
-    return;
-}
-
-include_once(G5_MSHOP_PATH.'/settle_inicis.inc.php');
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed7dbadd74d141bdb833db46dd036b5b1e9b24a91c45138d1fcd556cc3ef4a23
+size 333

@@ -1,8 +1,3 @@
-#!/bin/bash
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-
-pushd $DIR/local-klaytn-deploy
-
-./7.terminate.sh
-
-popd
+version https://git-lfs.github.com/spec/v1
+oid sha256:24c37ede3f207cef7d3531d78396838c000a308fc6807934d254c4fbdf1a8bc2
+size 139

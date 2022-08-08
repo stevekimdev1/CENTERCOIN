@@ -1,18 +1,3 @@
-<?php
-include_once('./_common.php');
-
-$coin = $_POST['coin'];
-$addr = "";
-if (!empty($member['mb_2']) && !empty($member['mb_2']) && $member['mb_level'] == 2) {
-    api_login_check($member); // api connect
-    $wallet = get_wallet();
-
-    foreach ($wallet as $i) {
-        if ($i['en'] == $coin) {
-            $addr = $i['addr'];
-        }
-    }
-}
-
-echo $addr;
-?>
+version https://git-lfs.github.com/spec/v1
+oid sha256:01d9ce9aabe163a93f71446582a3e2ee7157ea547bb1973933d519be732dcd3f
+size 363

@@ -1,22 +1,3 @@
-<?php
-/**
-* HybridAuth
-* http://hybridauth.sourceforge.net | http://github.com/hybridauth/hybridauth
-* (c) 2009-2015, HybridAuth authors | http://hybridauth.sourceforge.net/licenses.html
-*/
-
-// ------------------------------------------------------------------------
-//	HybridAuth End Point
-// ------------------------------------------------------------------------
-
-include_once('_common.php');
-
-if( ! $config['cf_social_login_use']){
-    die("소셜로그인을 사용하지 않습니다.");
-}
-
-require_once( "includes/g5_endpoint.php" );
-
-error_reporting(0); // Turn off all error reporting
-
-G5_Hybrid_Authentication::hybridauth_endpoint();
+version https://git-lfs.github.com/spec/v1
+oid sha256:f0862bc9c8ef3f2a1bbc257074caa0598489bab3a4108e391e14e71f3ae68a8c
+size 644

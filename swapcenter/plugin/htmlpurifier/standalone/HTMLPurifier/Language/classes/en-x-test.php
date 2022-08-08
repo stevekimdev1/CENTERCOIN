@@ -1,9 +1,3 @@
-<?php
-
-// private class for unit testing
-
-class HTMLPurifier_Language_en_x_test extends HTMLPurifier_Language
-{
-}
-
-// vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:f338b12b92b1a472af4c89e52efa1ead0368e9f2da5850cfedfb73de2d9097ac
+size 137

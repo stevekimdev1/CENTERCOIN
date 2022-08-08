@@ -1,9 +1,3 @@
-<?php
-include_once('./_common.php');
-include_once(G5_LIB_PATH.'/register.lib.php');
-
-$mb_hp   = isset($_POST['reg_mb_hp']) ? trim($_POST['reg_mb_hp']) : '';
-$mb_id   = isset($_POST['reg_mb_id']) ? trim($_POST['reg_mb_id']) : '';
-
-if ($msg = valid_mb_hp($mb_hp)) die($msg);
-//if ($msg = exist_mb_hp($mb_hp, $mb_id)) die($msg);
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2ad35128b88ea86241d89d6685c79ec465651711e29ec169f54ecdfb52e9046
+size 325

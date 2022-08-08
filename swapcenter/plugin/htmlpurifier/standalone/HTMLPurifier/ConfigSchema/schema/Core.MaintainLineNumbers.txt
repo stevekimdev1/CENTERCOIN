@@ -1,16 +1,3 @@
-Core.MaintainLineNumbers
-TYPE: bool/null
-VERSION: 2.0.0
-DEFAULT: NULL
---DESCRIPTION--
-
-<p>
-  If true, HTML Purifier will add line number information to all tokens.
-  This is useful when error reporting is turned on, but can result in
-  significant performance degradation and should not be used when
-  unnecessary. This directive must be used with the DirectLex lexer,
-  as the DOMLex lexer does not (yet) support this functionality.
-  If the value is null, an appropriate value will be selected based
-  on other configuration.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef77c543c3136aab61900df7168453635006aa554fb74d5d6551ef195c0c134c
+size 556

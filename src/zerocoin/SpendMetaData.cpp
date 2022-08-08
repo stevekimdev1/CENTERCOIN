@@ -1,19 +1,3 @@
-/**
-* @file       SpendMetaData.cpp
-*
-* @brief      SpendMetaData class for the Zerocoin library.
-*
-* @author     Ian Miers, Christina Garman and Matthew Green
-* @date       June 2013
-*
-* @copyright  Copyright 2013 Ian Miers, Christina Garman and Matthew Green
-* @license    This project is released under the MIT license.
-**/
-
-#include "Zerocoin.h"
-
-namespace libzerocoin {
-
-SpendMetaData::SpendMetaData(uint256 accumulatorId, uint256 txHash): accumulatorId(accumulatorId), txHash(txHash) {}
-
-} /* namespace libzerocoin */
+version https://git-lfs.github.com/spec/v1
+oid sha256:868c9b7ef97cf3560eff73a1bfac4100a83f590799c919f8dfd91706fe6c30b1
+size 543

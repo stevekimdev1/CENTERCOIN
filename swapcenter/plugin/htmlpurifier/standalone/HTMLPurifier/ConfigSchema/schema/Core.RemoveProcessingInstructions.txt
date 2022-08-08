@@ -1,11 +1,3 @@
-Core.RemoveProcessingInstructions
-TYPE: bool
-VERSION: 4.2.0
-DEFAULT: false
---DESCRIPTION--
-Instead of escaping processing instructions in the form <code>&lt;? ...
-?&gt;</code>, remove it out-right.  This may be useful if the HTML
-you are validating contains XML processing instruction gunk, however,
-it can also be user-unfriendly for people attempting to post PHP
-snippets.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:310499c0f2296d5c5ee4c54b8a772a2b1860cc8bdab5064317a25b89d876556f
+size 398

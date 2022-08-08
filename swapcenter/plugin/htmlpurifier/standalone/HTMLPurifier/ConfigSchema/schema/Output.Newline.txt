@@ -1,13 +1,3 @@
-Output.Newline
-TYPE: string/null
-VERSION: 2.0.1
-DEFAULT: NULL
---DESCRIPTION--
-
-<p>
-    Newline string to format final output with. If left null, HTML Purifier
-    will auto-detect the default newline type of the system and use that;
-    you can manually override it here. Remember, \r\n is Windows, \r
-    is Mac, and \n is Unix.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b40d7f1c9e999f2a0e079c6ffb75a3fb4f17eec8ac53bb6a3468c442a2d159b
+size 358

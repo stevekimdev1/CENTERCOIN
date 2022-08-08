@@ -1,19 +1,3 @@
-	
-please read this README.TXT file	
-	
-ZIP file contains following 3 files.	
-  - mcert.pem	
-  - mpriv.pem	
-  - keypass.enc	
-	
-Copy these 3 files to directory [key/iniescrow0].	
-	
-Merchant ID   : iniescrow0	
-Key Password  : 1111	
-Admin Password: 1111	
-	
-please visit https://iniweb.inicis.com	
-for your Merchant Administration.	
-This site provides your payment transaction details and account details by calculation period.	
-	
-You can also log on this site using your Merchant ID(iniescrow0).	
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e332ccf05b8cb3d98f66c9294cab893005e32bc80be0edcd2657e95dc986b84
+size 492

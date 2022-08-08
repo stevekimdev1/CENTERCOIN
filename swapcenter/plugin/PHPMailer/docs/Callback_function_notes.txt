@@ -1,17 +1,3 @@
-NEW CALLBACK FUNCTION:
-======================
-
-We have had requests for a method to process the results of sending emails 
-through PHPMailer. In this new release, we have implemented a callback
-function that passes the results of each email sent (to, cc, and/or bcc). 
-We have provided an example that echos the results back to the screen. The
-callback function can be used for any purpose. With minor modifications, the
-callback function can be used to create CSV logs, post results to databases,
-etc.
-
-Please review the test.php script for the example.
-
-It's pretty straight forward.
-
-Enjoy!
-Andy
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e86e48bf0af20d7ac152f5a4d8357edf624ff2cfa93bbd83ac52b2af118c3dc
+size 599

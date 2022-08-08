@@ -1,9 +1,3 @@
-CSS.Trusted
-TYPE: bool
-VERSION: 4.2.1
-DEFAULT: false
---DESCRIPTION--
-Indicates whether or not the user's CSS input is trusted or not. If the
-input is trusted, a more expansive set of allowed properties.  See
-also %HTML.Trusted.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:05dd90099ecc23e5ca71a6edc02d8d4212d35844d04da118959ceed9d108e785
+size 251

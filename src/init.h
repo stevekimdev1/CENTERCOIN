@@ -1,17 +1,3 @@
-// Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The Bitcoin developers
-// Distributed under the MIT/X11 software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef BITCOIN_INIT_H
-#define BITCOIN_INIT_H
-
-#include "wallet.h"
-
-extern CWallet* pwalletMain;
-extern std::string strWalletFileName;
-void StartShutdown();
-void Shutdown(void* parg);
-bool AppInit2();
-std::string HelpMessage();
-
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3084ba378893f6f981e31e1b591cd1783b1d4df90e9ca435ce2fe31e5fa9087
+size 490

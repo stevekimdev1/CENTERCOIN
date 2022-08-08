@@ -1,8 +1,3 @@
-<?php
-include_once("_common.php");
-include_once('captcha.lib.php');
-
-$captcha = new KCAPTCHA();
-$captcha->setKeyString(get_session("ss_captcha_key"));
-$captcha->getKeyString();
-$captcha->image();
+version https://git-lfs.github.com/spec/v1
+oid sha256:30db6525414e0381611bdd3a83c0e631261579205aec361fae761dc608fe2279
+size 195

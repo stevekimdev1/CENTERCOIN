@@ -1,17 +1,3 @@
-//
-// Mixins: Direct Chat
-//
-
-// Direct Chat Variant
-@mixin direct-chat-variant($bg-color, $color: $white) {
-  .right > .direct-chat-text {
-    background-color: $bg-color;
-    border-color: $bg-color;
-    color: color-yiq($bg-color);
-
-    &::after,
-    &::before {
-      border-left-color: $bg-color;
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9e022425d1a55df42d7730cc81af9f6054f667cf7a429b0210b6bf565cf1352
+size 314

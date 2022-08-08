@@ -1,9 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../token/KIP7/KIP7Burnable.sol";
-
-contract KIP7BurnableMock is KIP7Burnable {
-    constructor (address initialAccount, uint256 initialBalance) public {
-        _mint(initialAccount, initialBalance);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:23203659c3d559592c055a437737aefa800ad080d2d4af40ec9ac2979f9d003a
+size 240

@@ -1,20 +1,3 @@
-<?php
-include_once('./_common.php');
-
-$name = '';
-
-if ($it_id)
-{
-    $row = get_shop_item($it_id, true);
-    $code = $it_id;
-    $name = $row['it_name'];
-}
-else if ($ca_id)
-{
-    $sql = " select ca_name from {$g5['g5_shop_category_table']} where ca_id = '$ca_id' ";
-    $row = sql_fetch($sql);
-    $code = $ca_id;
-    $name = $row['ca_name'];
-}
-
-echo '{ "code": "' . $code . '", "name": "' . $name . '" }';
+version https://git-lfs.github.com/spec/v1
+oid sha256:0922d8b8a6467c5aff7f7af00a8df5dbd2ff58bf55e27f7626e4235313e2940c
+size 406

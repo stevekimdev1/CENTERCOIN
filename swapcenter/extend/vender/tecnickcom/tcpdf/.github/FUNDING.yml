@@ -1,1 +1,3 @@
-custom: ['https://www.paypal.com/cgi-bin/webscr?cmd=_donations&currency_code=GBP&business=paypal@tecnick.com&item_name=donation%20for%20tcpdf%20project']
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0451715b5cec627395fc480919774d0baae8c4291e627948f6c2d7c5f852e41
+size 154

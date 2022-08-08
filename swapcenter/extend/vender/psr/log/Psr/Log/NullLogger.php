@@ -1,30 +1,3 @@
-<?php
-
-namespace Psr\Log;
-
-/**
- * This Logger can be used to avoid conditional log calls.
- *
- * Logging should always be optional, and if no logger is provided to your
- * library creating a NullLogger instance to have something to throw logs at
- * is a good way to avoid littering your code with `if ($this->logger) { }`
- * blocks.
- */
-class NullLogger extends AbstractLogger
-{
-    /**
-     * Logs with an arbitrary level.
-     *
-     * @param mixed  $level
-     * @param string $message
-     * @param array  $context
-     *
-     * @return void
-     *
-     * @throws \Psr\Log\InvalidArgumentException
-     */
-    public function log($level, $message, array $context = array())
-    {
-        // noop
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e969c5da49ac031373b4b1e0cb9013f2daa87260e1aaaae8e413edddc4d7dcf5
+size 707

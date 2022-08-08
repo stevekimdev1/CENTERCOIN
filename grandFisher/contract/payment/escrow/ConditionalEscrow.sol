@@ -1,22 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "./Escrow.sol";
-
-/**
- * @title ConditionalEscrow
- * @dev Base abstract escrow to only allow withdrawal if a condition is met.
- * @dev Intended usage: See Escrow.sol. Same usage guidelines apply here.
- */
-contract ConditionalEscrow is Escrow {
-    /**
-     * @dev Returns whether an address is allowed to withdraw their funds. To be
-     * implemented by derived contracts.
-     * @param payee The destination address of the funds.
-     */
-    function withdrawalAllowed(address payee) public view returns (bool);
-
-    function withdraw(address payable payee) public {
-        require(withdrawalAllowed(payee), "ConditionalEscrow: payee is not allowed to withdraw");
-        super.withdraw(payee);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a3009f8329333d35c5226b710368e86b0538f9ea446445e2524193369aba522
+size 737

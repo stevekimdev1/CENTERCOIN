@@ -1,31 +1,3 @@
-<?php
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Processor;
-
-/**
- * Adds value of getmypid into records
- *
- * @author Andreas Hörnicke
- */
-class ProcessIdProcessor
-{
-    /**
-     * @param  array $record
-     * @return array
-     */
-    public function __invoke(array $record)
-    {
-        $record['extra']['process_id'] = getmypid();
-
-        return $record;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9763c867631d55153499a3c26b334a435f0a25b5885b2c39457e02f5dcd9c9bc
+size 574

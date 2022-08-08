@@ -1,9 +1,3 @@
-pragma solidity ^0.5.0;
-
-import { MerkleProof } from "../cryptography/MerkleProof.sol";
-
-contract MerkleProofWrapper {
-    function verify(bytes32[] memory proof, bytes32 root, bytes32 leaf) public pure returns (bool) {
-        return MerkleProof.verify(proof, root, leaf);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5071224846756809c23d871644aff8ae2a41f817f5b51cb91de70d0b49345f93
+size 282

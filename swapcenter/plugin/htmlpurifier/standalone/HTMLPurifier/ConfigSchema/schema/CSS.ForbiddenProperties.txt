@@ -1,13 +1,3 @@
-CSS.ForbiddenProperties
-TYPE: lookup
-VERSION: 4.2.0
-DEFAULT: array()
---DESCRIPTION--
-<p>
-    This is the logical inverse of %CSS.AllowedProperties, and it will
-    override that directive or any other directive.  If possible,
-    %CSS.AllowedProperties is recommended over this directive,
-    because it can sometimes be difficult to tell whether or not you've
-    forbidden all of the CSS properties you truly would like to disallow.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:08e1754779430ade974d232edc2778db65c7714236d3198c3874730cb9433cae
+size 463

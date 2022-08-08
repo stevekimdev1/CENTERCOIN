@@ -1,21 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../access/Roles.sol";
-
-contract RolesMock {
-    using Roles for Roles.Role;
-
-    Roles.Role private dummyRole;
-
-    function add(address account) public {
-        dummyRole.add(account);
-    }
-
-    function remove(address account) public {
-        dummyRole.remove(account);
-    }
-
-    function has(address account) public view returns (bool) {
-        return dummyRole.has(account);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a5abc407f15d5565a054288b3f6c9bd59fa0043ecf4822b2e223a303639e133
+size 425

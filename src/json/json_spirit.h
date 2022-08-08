@@ -1,18 +1,3 @@
-#ifndef JSON_SPIRIT
-#define JSON_SPIRIT
-
-//          Copyright John W. Wilkinson 2007 - 2009.
-// Distributed under the MIT License, see accompanying file LICENSE.txt
-
-// json spirit version 4.03
-
-#if defined(_MSC_VER) && (_MSC_VER >= 1020)
-# pragma once
-#endif
-
-#include "json_spirit_value.h"
-#include "json_spirit_reader.h"
-#include "json_spirit_writer.h"
-#include "json_spirit_utils.h"
-
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:59d21f76233763850bb9c6c65adbb3e6c0505731d4e89c5b51c6c9c711b00db8
+size 414

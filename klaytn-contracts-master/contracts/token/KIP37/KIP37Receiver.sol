@@ -1,15 +1,3 @@
-// SPDX-License-Identifier: MIT
-
-pragma solidity ^0.5.0;
-
-import "./IKIP37Receiver.sol";
-import "../../introspection/KIP13.sol";
-
-contract KIP37Receiver is KIP13, IKIP37Receiver {
-    constructor() public {
-        _registerInterface(
-            KIP37Receiver(0).onKIP37Received.selector ^
-                KIP37Receiver(0).onKIP37BatchReceived.selector
-        );
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:741a4304c5c344e6e1e5a2ed525ec2fa32011c4bc2f5675aae392a53104ccfff
+size 373

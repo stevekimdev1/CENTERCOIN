@@ -1,20 +1,3 @@
-function kakaolink_send(text, url, image)
-{
-    if( image === undefined ){
-        image = '';
-    }
-
-    // 카카오톡 링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
-    Kakao.Link.sendDefault({
-        objectType: 'feed',
-        content: {
-            title: String(text),
-            description: url,
-            imageUrl: image,
-            link: {
-                mobileWebUrl: url,
-                webUrl: url // 앱 설정의 웹 플랫폼에 등록한 도메인의 URL이어야 합니다.
-            }
-        }
-    });
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:454281286dac5dc778af362dc892ca6f99a9365debddbe3c693a7f3eb9c08370
+size 562

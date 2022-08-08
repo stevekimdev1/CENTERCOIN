@@ -1,12 +1,3 @@
-Core.AllowParseManyTags
-TYPE: bool
-DEFAULT: false
-VERSION: 4.10.1
---DESCRIPTION--
-<p>
-    This directive allows parsing of many nested tags.
-    If you set true, relaxes any hardcoded limit from the parser.
-    However, in that case it may cause a Dos attack.
-    Be careful when enabling it.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:22404190d072fdc5e5a52964e4d8d730f108771d1e9c1a434d7d2edc46315442
+size 321

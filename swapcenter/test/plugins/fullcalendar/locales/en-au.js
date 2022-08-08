@@ -1,17 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales['en-au'] = factory()));
-}(this, function () { 'use strict';
-
-    var enAu = {
-        code: "en-au",
-        week: {
-            dow: 1,
-            doy: 4 // The week that contains Jan 4th is the first week of the year.
-        }
-    };
-
-    return enAu;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:621de5d27fa66b91b4348a5f3bcd38ce24755911b45c13db34a5e4b189de2d74
+size 576

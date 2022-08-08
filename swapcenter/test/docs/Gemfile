@@ -1,9 +1,3 @@
-source 'https://rubygems.org'
-
-group :development, :test do
-  gem 'jekyll', '~> 4.1.1'
-  gem 'jekyll-seo-tag', '~> 2.6.1'
-  gem 'jekyll-sitemap', '~> 1.4.0'
-  gem 'wdm', '~> 0.1.1', :install_if => Gem.win_platform?
-end
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff251a9648642f9dd55c541785e36a64725738f99f4ab07af6f229bf42b20307
+size 220

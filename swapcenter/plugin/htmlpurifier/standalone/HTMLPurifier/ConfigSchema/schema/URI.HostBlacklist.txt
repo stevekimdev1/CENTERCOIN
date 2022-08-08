@@ -1,9 +1,3 @@
-URI.HostBlacklist
-TYPE: list
-VERSION: 1.3.0
-DEFAULT: array()
---DESCRIPTION--
-List of strings that are forbidden in the host of any URI. Use it to kill
-domain names of spam, etc. Note that it will catch anything in the domain,
-so <tt>moo.com</tt> will catch <tt>moo.com.example.com</tt>.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc1445daff05bddfaed28fd1a6e7690ae1144bf5c48e35a4979bbc6f0040e9e3
+size 310

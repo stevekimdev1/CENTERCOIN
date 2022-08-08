@@ -1,15 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<phpunit bootstrap="tests/bootstrap.php" colors="true">
-    <testsuites>
-        <testsuite name="Monolog Test Suite">
-            <directory>tests/Monolog/</directory>
-        </testsuite>
-    </testsuites>
-
-    <filter>
-        <whitelist>
-            <directory suffix=".php">src/Monolog/</directory>
-        </whitelist>
-    </filter>
-</phpunit>
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d851149141d18cba96cae8a8133898ee2c8b46dee98ba8a809364d1a4234de1
+size 390

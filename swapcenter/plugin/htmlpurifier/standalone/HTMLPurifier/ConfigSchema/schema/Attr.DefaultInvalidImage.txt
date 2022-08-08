@@ -1,9 +1,3 @@
-Attr.DefaultInvalidImage
-TYPE: string
-DEFAULT: ''
---DESCRIPTION--
-This is the default image an img tag will be pointed to if it does not have
-a valid src attribute.  In future versions, we may allow the image tag to
-be removed completely, but due to design issues, this is not possible right
-now.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:a35f2fc1b8f9ca5ebc88cab68abd31c67a7da84d27a2502f5b594a7cf1ee432e
+size 320

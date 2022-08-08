@@ -1,16 +1,3 @@
----
-sections:
-  - title: ERC 20
-    contracts:
-    - ERC20Migrator
-    - ERC20Snapshot
-    - TokenVesting
-  - title: Miscellenous
-    contracts:
-    - Counters
-    - SignatureBouncer
-    - SignedSafeMath
-  - subdirectory: ERC1046
----
-
-> This page is incomplete. We're working to improve it for the next release. Stay tuned!
+version https://git-lfs.github.com/spec/v1
+oid sha256:500dd183356e25daf59ea2b22973cf7a99e435540e99ffd02615141da7943f4a
+size 324

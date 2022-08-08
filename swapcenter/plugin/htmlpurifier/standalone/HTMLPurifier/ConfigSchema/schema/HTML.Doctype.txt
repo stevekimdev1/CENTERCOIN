@@ -1,11 +1,3 @@
-HTML.Doctype
-TYPE: string/null
-DEFAULT: NULL
---DESCRIPTION--
-Doctype to use during filtering. Technically speaking this is not actually
-a doctype (as it does not identify a corresponding DTD), but we are using
-this name for sake of simplicity. When non-blank, this will override any
-older directives like %HTML.XHTML or %HTML.Strict.
---ALLOWED--
-'HTML 4.01 Transitional', 'HTML 4.01 Strict', 'XHTML 1.0 Transitional', 'XHTML 1.0 Strict', 'XHTML 1.1'
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9ae59d05ef9854f79c305ee5e1fc0332a96be53e4c6f5661abed79a8ee58ce2
+size 473

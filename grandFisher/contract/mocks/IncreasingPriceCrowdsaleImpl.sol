@@ -1,22 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../crowdsale/price/IncreasingPriceCrowdsale.sol";
-import "../math/SafeMath.sol";
-
-contract IncreasingPriceCrowdsaleImpl is IncreasingPriceCrowdsale {
-    constructor (
-        uint256 openingTime,
-        uint256 closingTime,
-        address payable wallet,
-        IERC20 token,
-        uint256 initialRate,
-        uint256 finalRate
-    )
-        public
-        Crowdsale(initialRate, wallet, token)
-        TimedCrowdsale(openingTime, closingTime)
-        IncreasingPriceCrowdsale(initialRate, finalRate)
-    {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f042481a43d22755f7c659ca6c00ea36ba01fa30be9d3c7dbe751df5e10ff710
+size 612

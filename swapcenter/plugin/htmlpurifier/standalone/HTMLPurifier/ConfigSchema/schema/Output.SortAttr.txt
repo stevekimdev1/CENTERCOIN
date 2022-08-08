@@ -1,14 +1,3 @@
-Output.SortAttr
-TYPE: bool
-VERSION: 3.2.0
-DEFAULT: false
---DESCRIPTION--
-<p>
-  If true, HTML Purifier will sort attributes by name before writing them back
-  to the document, converting a tag like: <code>&lt;el b="" a="" c="" /&gt;</code>
-  to <code>&lt;el a="" b="" c="" /&gt;</code>. This is a workaround for
-  a bug in FCKeditor which causes it to swap attributes order, adding noise
-  to text diffs. If you're not seeing this bug, chances are, you don't need
-  this directive.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:bcc6553924a06e82ade61c72daa2a2c427b808745e167885961c4de36bd7c382
+size 509

@@ -1,11 +1,3 @@
-// Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The Bitcoin developers
-// Distributed under the MIT/X11 software license, see the accompanying
-// file license.txt or http://www.opensource.org/licenses/mit-license.php.
-
-#ifndef BITCOIN_TXDB_H
-#define BITCOIN_TXDB_H
-
-#include "txdb-leveldb.h"
-
-#endif  // BITCOIN_TXDB_H
+version https://git-lfs.github.com/spec/v1
+oid sha256:88811127b214160cdc3fc16d67d5bfebecb563eb630ed5bd777884e2d804011d
+size 353

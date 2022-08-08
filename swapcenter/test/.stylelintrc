@@ -1,16 +1,3 @@
-{
-  "extends": [
-    "stylelint-config-twbs-bootstrap/scss"
-  ],
-  "rules": {
-    "declaration-no-important": null,
-    "order/properties-order": null,
-    "selector-max-class": null,
-    "selector-max-combinators": null,
-    "selector-max-compound-selectors": null,
-    "selector-max-id": null,
-    "selector-max-specificity": null,
-    "selector-max-type": null,
-    "selector-no-qualifying-type": null
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c5b53474de449923baf2ed9fdeca7c16cb017947083bf8b74bb10c8da76fa1d
+size 411

@@ -1,11 +1,3 @@
-URI.DefinitionID
-TYPE: string/null
-VERSION: 2.1.0
-DEFAULT: NULL
---DESCRIPTION--
-
-<p>
-    Unique identifier for a custom-built URI definition. If you  want
-    to add custom URIFilters, you must specify this value.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:ade473d52d84cbea5833c9ddf3cfdf39f628bfbd989e9e46beea5d7d9eca97ff
+size 242

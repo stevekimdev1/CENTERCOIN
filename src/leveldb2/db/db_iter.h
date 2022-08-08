@@ -1,28 +1,3 @@
-// Copyright (c) 2011 The LevelDB Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file. See the AUTHORS file for names of contributors.
-
-#ifndef STORAGE_LEVELDB_DB_DB_ITER_H_
-#define STORAGE_LEVELDB_DB_DB_ITER_H_
-
-#include <stdint.h>
-#include "leveldb/db.h"
-#include "db/dbformat.h"
-
-namespace leveldb {
-
-class DBImpl;
-
-// Return a new iterator that converts internal keys (yielded by
-// "*internal_iter") that were live at the specified "sequence" number
-// into appropriate user keys.
-extern Iterator* NewDBIterator(
-    DBImpl* db,
-    const Comparator* user_key_comparator,
-    Iterator* internal_iter,
-    SequenceNumber sequence,
-    uint32_t seed);
-
-}  // namespace leveldb
-
-#endif  // STORAGE_LEVELDB_DB_DB_ITER_H_
+version https://git-lfs.github.com/spec/v1
+oid sha256:4847aba9e868ad7fb1df4d2f269fd1a244ccfb6fe17667963dd149c381df6f41
+size 803

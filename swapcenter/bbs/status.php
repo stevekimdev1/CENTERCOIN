@@ -1,15 +1,3 @@
-<?php
-include_once('./_common.php');
-if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
-
-$wr_id = $_POST['wr_id'];
-$wr_4 = $_POST['wr_4'];
-
-$sql = " 
-    update g5_write_send set
-            wr_4 = '{$wr_4}'
-        where
-            wr_id = '{$wr_id}'
-";
-sql_query($sql);
-?>
+version https://git-lfs.github.com/spec/v1
+oid sha256:377a103319f70eaab3ba96f096ff835641f7b2aff0e48bb2e23d5afd918bb42b
+size 293

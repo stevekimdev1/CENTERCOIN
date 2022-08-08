@@ -1,18 +1,3 @@
-<?php
-include_once('./_common.php');
-
-$code = isset($_POST['zipcode']) ? preg_replace('#[^0-9]#', '', $_POST['zipcode']) : '';
-
-if(!$code)
-    die('0');
-
-$sql = " select sc_id, sc_price
-            from {$g5['g5_shop_sendcost_table']}
-            where sc_zip1 <= '$code'
-              and sc_zip2 >= '$code' ";
-$row = sql_fetch($sql);
-
-if(! (isset($row['sc_id']) && $row['sc_id']))
-    die('0');
-
-die($row['sc_price']);
+version https://git-lfs.github.com/spec/v1
+oid sha256:948fa2cdca01e1c7b8dcc00c17b4d27dbc1a1a390495ea44f5c7c9d91b1437fd
+size 420

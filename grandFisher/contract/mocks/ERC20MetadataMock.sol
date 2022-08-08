@@ -1,14 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../token/ERC20/ERC20.sol";
-import "../drafts/ERC1046/ERC20Metadata.sol";
-
-contract ERC20MetadataMock is ERC20, ERC20Metadata {
-    constructor (string memory tokenURI) public ERC20Metadata(tokenURI) {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-
-    function setTokenURI(string memory tokenURI) public {
-        _setTokenURI(tokenURI);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd295b3ca5b1bde28499015f3900eddc6514006f136d6201a2b2ec64e7a4b124
+size 396

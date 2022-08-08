@@ -1,17 +1,3 @@
-#!/bin/bash
-
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-
-pushd $DIR
-
-if [ ! -e "local-klaytn-deploy" ];then
-  echo "local-klaytn-deploy not exist! cloning..."
-  git clone https://github.com/klaytn/local-klaytn-deploy.git
-fi
-
-pushd local-klaytn-deploy
-./1.prepare.sh
-./2.start.sh
-
-popd
-popd
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e3f9cbb9bd098dd754b1b44178efeea9df3f85f01418a433750c7c4195b2bd3
+size 318

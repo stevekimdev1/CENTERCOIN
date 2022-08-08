@@ -1,21 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../token/ERC721/ERC721.sol";
-
-/**
- * @title ERC721Mock
- * This mock just provides a public mint and burn functions for testing purposes
- */
-contract ERC721Mock is ERC721 {
-    function mint(address to, uint256 tokenId) public {
-        _mint(to, tokenId);
-    }
-
-    function burn(address owner, uint256 tokenId) public {
-        _burn(owner, tokenId);
-    }
-
-    function burn(uint256 tokenId) public {
-        _burn(tokenId);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe99b08198a8f3cc7326dd3f743354c0fb2931e956e36a48ad67415f064db87c
+size 469

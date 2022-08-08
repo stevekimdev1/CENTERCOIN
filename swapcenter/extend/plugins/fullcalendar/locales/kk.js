@@ -1,32 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales.kk = factory()));
-}(this, function () { 'use strict';
-
-    var kk = {
-        code: "kk",
-        week: {
-            dow: 1,
-            doy: 7 // The week that contains Jan 1st is the first week of the year.
-        },
-        buttonText: {
-            prev: "Алдыңғы",
-            next: "Келесі",
-            today: "Бүгін",
-            month: "Ай",
-            week: "Апта",
-            day: "Күн",
-            list: "Күн тәртібі"
-        },
-        weekLabel: "Не",
-        allDayText: "Күні бойы",
-        eventLimitText: function (n) {
-            return "+ тағы " + n;
-        },
-        noEventsMessage: "Көрсету үшін оқиғалар жоқ"
-    };
-
-    return kk;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:830d009bce1dd24cfa6a7ff3abdc0872c37474d02e656adb80c73667cf045a59
+size 1057

@@ -1,29 +1,3 @@
-<?php
-
-/**
- * HybridAuth
- * http://hybridauth.sourceforge.net | http://github.com/hybridauth/hybridauth
- * (c) 2009-2015, HybridAuth authors | http://hybridauth.sourceforge.net/licenses.html
- */
-
-/**
- * HybridAuth storage manager interface
- */
-interface Hybrid_Storage_Interface {
-
-	public function config($key, $value = null);
-
-	public function get($key);
-
-	public function set($key, $value);
-
-	function clear();
-
-	function delete($key);
-
-	function deleteMatch($key);
-
-	function getSessionData();
-
-	function restoreSessionData($sessiondata = null);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:85fdce94322eec5662304a1119d6f0e1b4371959e509984ad1883b5d0a2fee85
+size 552

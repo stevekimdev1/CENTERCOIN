@@ -1,5 +1,3 @@
-"pdf01","Dokument generert [[date_y]]-[[date_m]]-[[date_d]]"
-"pdf02","Dokument generert kl [[date_h]]:[[date_i]]"
-"pdf03","Dokument generert [[date_y]]-[[date_m]]-[[date_d]] kl [[date_h]]:[[date_i]]"
-"pdf04","Side [[page_cu]]/[[page_nb]]"
-"pdf05","Skjemaene krever Adobe Reader 9"
+version https://git-lfs.github.com/spec/v1
+oid sha256:808c10152ebd6e9bb5cb8a0c7043be98006afd8a39f5d01f209535bf76ad14ba
+size 281

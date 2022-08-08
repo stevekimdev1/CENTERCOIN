@@ -1,10 +1,3 @@
-(function ($) {
-    'use strict';
-    $.plot.uiConstants = {
-        SNAPPING_CONSTANT: 20,
-        PANHINT_LENGTH_CONSTANT: 10,
-        MINOR_TICKS_COUNT_CONSTANT: 4,
-        TICK_LENGTH_CONSTANT: 10,
-        ZOOM_DISTANCE_MARGIN: 25
-    };
-})(jQuery);
+version https://git-lfs.github.com/spec/v1
+oid sha256:7241ad2ce2c97437555991d0f6ba7c56ed19dd0958826695c36f15fdaba143d5
+size 254

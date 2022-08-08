@@ -1,17 +1,3 @@
-URI.MungeResources
-TYPE: bool
-VERSION: 3.1.1
-DEFAULT: false
---DESCRIPTION--
-<p>
-    If true, any URI munging directives like %URI.Munge
-    will also apply to embedded resources, such as <code>&lt;img src=""&gt;</code>.
-    Be careful enabling this directive if you have a redirector script
-    that does not use the <code>Location</code> HTTP header; all of your images
-    and other embedded resources will break.
-</p>
-<p>
-    <strong>Warning:</strong> It is strongly advised you use this in conjunction
-    %URI.MungeSecretKey to mitigate the security risk of an open redirector.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b7b32f4429d6b99bd78ecf56b0048c0053af852bb84d22af48a1d804aab107e
+size 611

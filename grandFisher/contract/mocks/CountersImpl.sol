@@ -1,21 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../drafts/Counters.sol";
-
-contract CountersImpl {
-    using Counters for Counters.Counter;
-
-    Counters.Counter private _counter;
-
-    function current() public view returns (uint256) {
-        return _counter.current();
-    }
-
-    function increment() public {
-        _counter.increment();
-    }
-
-    function decrement() public {
-        _counter.decrement();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e51719236392370239a56d5f01868544fc2290d609401749775fad606d9b90be
+size 405

@@ -1,32 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales.hi = factory()));
-}(this, function () { 'use strict';
-
-    var hi = {
-        code: "hi",
-        week: {
-            dow: 0,
-            doy: 6 // The week that contains Jan 1st is the first week of the year.
-        },
-        buttonText: {
-            prev: "पिछला",
-            next: "अगला",
-            today: "आज",
-            month: "महीना",
-            week: "सप्ताह",
-            day: "दिन",
-            list: "कार्यसूची"
-        },
-        weekLabel: "हफ्ता",
-        allDayText: "सभी दिन",
-        eventLimitText: function (n) {
-            return "+अधिक " + n;
-        },
-        noEventsMessage: "कोई घटनाओं को प्रदर्शित करने के लिए"
-    };
-
-    return hi;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee645d6a23ed59b0c9947dc8ef31d75a0c1fc8f3837f011ef5e66be28a4c4451
+size 1146

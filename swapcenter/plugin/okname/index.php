@@ -1,2 +1,3 @@
-git 에서 빈 디렉토리는 push 되지 않으므로 일부러 생성한 파일입니다.
-이 디렉토리에 다른 파일이 하나라도 있다면 나중에 삭제하세요.
+version https://git-lfs.github.com/spec/v1
+oid sha256:0dc9ca8023d3ad785bc7100358a93ec8c039c98fa9ea1fe6c2ca4e44866a7bee
+size 179

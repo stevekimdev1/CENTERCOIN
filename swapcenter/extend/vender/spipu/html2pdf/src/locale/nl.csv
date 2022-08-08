@@ -1,5 +1,3 @@
-"pdf01","Document gemaakt op [[date_d]]-[[date_m]]-[[date_y]]"
-"pdf02","Document gemaakt om [[date_h]]:[[date_i]]"
-"pdf03","Document gemaakt op [[date_d]]-[[date_m]]-[[date_y]] om [[date_h]]:[[date_i]]"
-"pdf04","Pagina [[page_cu]] van [[page_nb]]"
-"pdf05","De formulieren vereisen het gebruik van Adobe Reader 9"
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1de11251d94e44c75cfa72924cc88b0507c441e11f6819a8a6bd0f1677f2c33
+size 313

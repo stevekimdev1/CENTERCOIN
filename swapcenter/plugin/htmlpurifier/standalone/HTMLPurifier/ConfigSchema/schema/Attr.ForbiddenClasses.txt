@@ -1,8 +1,3 @@
-Attr.ForbiddenClasses
-TYPE: lookup
-VERSION: 4.0.0
-DEFAULT: array()
---DESCRIPTION--
-List of forbidden class values in the class attribute. By default, this is
-empty, which means that no classes are forbidden. See also %Attr.AllowedClasses.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:17d5bec719a3d15cba1af12f3a527c6a0371460c65c8d40d2c728d0274293368
+size 262

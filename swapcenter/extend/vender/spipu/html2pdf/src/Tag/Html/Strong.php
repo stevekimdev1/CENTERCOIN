@@ -1,26 +1,3 @@
-<?php
-/**
- * Html2Pdf Library - Tag class
- *
- * HTML => PDF converter
- * distributed under the OSL-3.0 License
- *
- * @package   Html2pdf
- * @author    Laurent MINGUET <webmaster@html2pdf.fr>
- * @copyright 2017 Laurent MINGUET
- */
-namespace Spipu\Html2Pdf\Tag\Html;
-
-/**
- * Tag Strong
- */
-class Strong extends B
-{
-    /**
-     * @inheritdoc
-     */
-    public function getName()
-    {
-        return 'strong';
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd4ad48baa59daf3f8b18dbc649fb33bdd06bf0e488065e5a8b4f4fab9fe67f2
+size 417

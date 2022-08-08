@@ -1,27 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales.he = factory()));
-}(this, function () { 'use strict';
-
-    var he = {
-        code: "he",
-        dir: 'rtl',
-        buttonText: {
-            prev: "הקודם",
-            next: "הבא",
-            today: "היום",
-            month: "חודש",
-            week: "שבוע",
-            day: "יום",
-            list: "סדר יום"
-        },
-        allDayText: "כל היום",
-        eventLimitText: "אחר",
-        noEventsMessage: "אין אירועים להצגה",
-        weekLabel: "שבוע"
-    };
-
-    return he;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee18785a9cfb6763a2dabee8f7b9f77546c8e27be12099c0fab893a5449148ee
+size 861

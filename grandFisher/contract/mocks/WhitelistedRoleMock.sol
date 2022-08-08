@@ -1,9 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../access/roles/WhitelistedRole.sol";
-
-contract WhitelistedRoleMock is WhitelistedRole {
-    function onlyWhitelistedMock() public view onlyWhitelisted {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c762abd70153b09345eeec385db6cd7bbc9ee043c036e31cf7a35ee4628d5c7
+size 252

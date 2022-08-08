@@ -1,4 +1,3 @@
-<FilesMatch "\.(htaccess|htpasswd|[Pp][Hh][Pp]|[Pp][Hh][Tt]|[Pp]?[Hh][Tt][Mm][Ll]?|[Ii][Nn][Cc]|[Cc][Gg][Ii]|[Pp][Ll]|[Pp][Hh][Aa][Rr])">
-Order allow,deny
-Deny from all
-</FilesMatch>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac44df0b0d86bf53f540bc70244c551301c142d6ebee257e6131e5a31847f325
+size 182

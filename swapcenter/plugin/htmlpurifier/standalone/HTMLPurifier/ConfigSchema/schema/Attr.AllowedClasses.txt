@@ -1,8 +1,3 @@
-Attr.AllowedClasses
-TYPE: lookup/null
-VERSION: 4.0.0
-DEFAULT: null
---DESCRIPTION--
-List of allowed class values in the class attribute. By default, this is null,
-which means all classes are allowed.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2311beb17743ea5b8d7bab3e61db44fde101718ae7ff31597eac127934aaab1
+size 222

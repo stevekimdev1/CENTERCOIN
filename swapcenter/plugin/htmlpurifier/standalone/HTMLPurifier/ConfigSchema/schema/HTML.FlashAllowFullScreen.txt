@@ -1,11 +1,3 @@
-HTML.FlashAllowFullScreen
-TYPE: bool
-VERSION: 4.2.0
-DEFAULT: false
---DESCRIPTION--
-<p>
-    Whether or not to permit embedded Flash content from
-    %HTML.SafeObject to expand to the full screen.  Corresponds to
-    the <code>allowFullScreen</code> parameter.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:e98cb7e6a622958eb2e517778d26b2f20edb906b9362a0cc3f6e1b1b615c8220
+size 287

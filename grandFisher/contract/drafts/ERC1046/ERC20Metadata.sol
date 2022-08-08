@@ -1,24 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../../token/ERC20/IERC20.sol";
-
-/**
- * @title ERC-1047 Token Metadata
- * @dev See https://eips.ethereum.org/EIPS/eip-1046
- * @dev tokenURI must respond with a URI that implements https://eips.ethereum.org/EIPS/eip-1047
- */
-contract ERC20Metadata {
-    string private _tokenURI;
-
-    constructor (string memory tokenURI_) public {
-        _setTokenURI(tokenURI_);
-    }
-
-    function tokenURI() external view returns (string memory) {
-        return _tokenURI;
-    }
-
-    function _setTokenURI(string memory tokenURI_) internal {
-        _tokenURI = tokenURI_;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:deece4fe530577a7122482354d44e07146a9a87bbbaf5c34a3fa1b4d54f477c6
+size 601

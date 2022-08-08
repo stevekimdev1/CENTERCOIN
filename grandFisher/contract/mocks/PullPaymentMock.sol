@@ -1,15 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../payment/PullPayment.sol";
-
-// mock class using PullPayment
-contract PullPaymentMock is PullPayment {
-    constructor () public payable {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-
-    // test helper function to call asyncTransfer
-    function callTransfer(address dest, uint256 amount) public {
-        _asyncTransfer(dest, amount);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7bdbbc8b2ac7dbfd2f40b418e88c8687376343abe00b2e4d868f6f40edbf5e51
+size 398

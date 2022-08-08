@@ -1,9 +1,3 @@
-Core.EnableIDNA
-TYPE: bool
-DEFAULT: false
-VERSION: 4.4.0
---DESCRIPTION--
-Allows international domain names in URLs.  This configuration option
-requires the PEAR Net_IDNA2 module to be installed.  It operates by
-punycoding any internationalized host names for maximum portability.
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:f876ba51b22763f68379200402d703ad29f83f639503f4626c43a5a1f5b206ff
+size 303

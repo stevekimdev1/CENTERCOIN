@@ -1,32 +1,3 @@
-<?php
-/**
- * Html2Pdf Library - example
- *
- * HTML => PDF converter
- * distributed under the OSL-3.0 License
- *
- * @package   Html2pdf
- * @author    Laurent MINGUET <webmaster@html2pdf.fr>
- * @copyright 2017 Laurent MINGUET
- */
-require_once dirname(__FILE__).'/../vendor/autoload.php';
-
-use Spipu\Html2Pdf\Html2Pdf;
-use Spipu\Html2Pdf\Exception\Html2PdfException;
-use Spipu\Html2Pdf\Exception\ExceptionFormatter;
-
-try {
-    ob_start();
-    include dirname(__FILE__).'/res/bookmark.php';
-    $content = ob_get_clean();
-
-    $html2pdf = new Html2Pdf('P', 'A4', 'fr', true, 'UTF-8', 0);
-    $html2pdf->writeHTML($content);
-    $html2pdf->createIndex('Sommaire', 25, 12, false, true, 1);
-    $html2pdf->output('bookmark.pdf');
-} catch (Html2PdfException $e) {
-    $html2pdf->clean();
-
-    $formatter = new ExceptionFormatter($e);
-    echo $formatter->getHtmlMessage();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e871710202d27e96dfa23c4cf413e940e0a404002a3618d5e836d41b6f31328
+size 867

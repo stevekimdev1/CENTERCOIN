@@ -1,16 +1,3 @@
-#!/usr/bin/env bash
-
-cd "$( dirname "${BASH_SOURCE[0]}" )"
-
-rm -f *.pdf
-
-cd ../examples
-for PHP_SCRIPT in $(ls ./*.php);
-do
-    PDF_FILE=`echo "$PHP_SCRIPT" | sed 's/\.php/\.pdf/g' | sed 's/\.\//\.\.\/test\//g'`
-    echo "Example $PHP_SCRIPT => $PDF_FILE"
-    php $PHP_SCRIPT > $PDF_FILE
-done
-
-cd ../test
-ls -l
+version https://git-lfs.github.com/spec/v1
+oid sha256:0cba41a2b66d1f9fd223d3f47642e641b7c4ff9644fb1f2dc3f0bed27451a91d
+size 311

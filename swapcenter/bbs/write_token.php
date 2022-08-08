@@ -1,12 +1,3 @@
-<?php
-include_once('./_common.php');
-include_once(G5_LIB_PATH.'/json.lib.php');
-
-if(!$bo_table)
-   die(json_encode(array('error'=>'게시판 정보가 올바르지 않습니다.', 'url'=>G5_URL)));
-
-set_session('ss_write_'.$bo_table.'_token', '');
-
-$token = get_write_token($bo_table);
-
-die(json_encode(array('error'=>'', 'token'=>$token, 'url'=>'')));
+version https://git-lfs.github.com/spec/v1
+oid sha256:e03878eb65c561133bbf770eb850763de6d0cd4b5655a7c616c3cf8c9b92c118
+size 352

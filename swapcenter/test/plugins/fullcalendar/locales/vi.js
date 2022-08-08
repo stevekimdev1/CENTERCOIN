@@ -1,32 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales.vi = factory()));
-}(this, function () { 'use strict';
-
-    var vi = {
-        code: "vi",
-        week: {
-            dow: 1,
-            doy: 4 // The week that contains Jan 4th is the first week of the year.
-        },
-        buttonText: {
-            prev: "Trước",
-            next: "Tiếp",
-            today: "Hôm nay",
-            month: "Tháng",
-            week: "Tuần",
-            day: "Ngày",
-            list: "Lịch biểu"
-        },
-        weekLabel: "Tu",
-        allDayText: "Cả ngày",
-        eventLimitText: function (n) {
-            return "+ thêm " + n;
-        },
-        noEventsMessage: "Không có sự kiện để hiển thị"
-    };
-
-    return vi;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c367091172b3706802542b85c63f620349ff837f3d096a6035009d0e55dc81e
+size 1017

@@ -1,29 +1,3 @@
-// SPDX-License-Identifier: GPL-3.0
-
-pragma solidity >=0.7.0 <0.9.0;
-
-/**
- * @title Storage
- * @dev Store & retrieve value in a variable
- * @custom:dev-run-script ./scripts/deploy_with_ethers.ts
- */
-contract Storage {
-
-    uint256 number;
-
-    /**
-     * @dev Store value in variable
-     * @param num value to store
-     */
-    function store(uint256 num) public {
-        number = num;
-    }
-
-    /**
-     * @dev Return value 
-     * @return value of 'number'
-     */
-    function retrieve() public view returns (uint256){
-        return number;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e881b9f58001fc464ed31162394a0c012f42013622fbd53467e47d4dae6d3832
+size 555

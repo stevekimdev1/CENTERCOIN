@@ -1,28 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2015-11-05
- * Time: 오후 2:59
- */
-
-if (!function_exists('json_decode')) {
-    function json_decode($content, $assoc=false) {
-        require_once 'JSON.php';
-        if ($assoc) {
-            $json = new Services_JSON(SERVICES_JSON_LOOSE_TYPE);
-        }
-        else {
-            $json = new Services_JSON;
-        }
-        return $json->decode($content);
-    }
-}
-
-if (!function_exists('json_encode')) {
-    function json_encode($content) {
-        require_once 'JSON.php';
-        $json = new Services_JSON;
-        return $json->encode($content);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3f3a20c87a6e5686cac9c1c76489e088a677d29472b011d3e0fa9f91e64ff80
+size 627

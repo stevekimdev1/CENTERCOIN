@@ -1,15 +1,3 @@
-AutoFormat.RemoveEmpty.RemoveNbsp
-TYPE: bool
-VERSION: 4.0.0
-DEFAULT: false
---DESCRIPTION--
-<p>
-  When enabled, HTML Purifier will treat any elements that contain only
-  non-breaking spaces as well as regular whitespace as empty, and remove
-  them when %AutoFormat.RemoveEmpty is enabled.
-</p>
-<p>
-  See %AutoFormat.RemoveEmpty.RemoveNbsp.Exceptions for a list of elements
-  that don't have this behavior applied to them.
-</p>
---# vim: et sw=4 sts=4
+version https://git-lfs.github.com/spec/v1
+oid sha256:351f943e74e1b157dec6a6d403c7f5df8993656fde8459c1079d95fa15c8a78e
+size 449

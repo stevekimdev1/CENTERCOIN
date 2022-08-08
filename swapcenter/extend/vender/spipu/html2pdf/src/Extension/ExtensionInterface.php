@@ -1,30 +1,3 @@
-<?php
-/**
- * Html2Pdf Library
- *
- * HTML => PDF converter
- * distributed under the OSL-3.0 License
- *
- * @package   Html2pdf
- * @author    Laurent MINGUET <webmaster@html2pdf.fr>
- * @copyright 2017 Laurent MINGUET
- */
-namespace Spipu\Html2Pdf\Extension;
-
-/**
- * Interface ExtensionInterface
- */
-interface ExtensionInterface
-{
-    /**
-     * Get the extension's name
-     *
-     * @return string
-     */
-    public function getName();
-
-    /**
-     * @return array()
-     */
-    public function getTags();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3538120a34b8d11f0acc3bcefba776d8453d8037ec11cde453b84c4aa79bcc5
+size 507

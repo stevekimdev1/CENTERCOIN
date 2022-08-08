@@ -1,13 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "./IERC721.sol";
-import "./IERC721Enumerable.sol";
-import "./IERC721Metadata.sol";
-
-/**
- * @title ERC-721 Non-Fungible Token Standard, full implementation interface
- * @dev See https://eips.ethereum.org/EIPS/eip-721
- */
-contract IERC721Full is IERC721, IERC721Enumerable, IERC721Metadata {
-    // solhint-disable-previous-line no-empty-blocks
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2101ebd5a15890983f4634ed536066df46b36e792e1a8bf562f243b6cf040a2
+size 377

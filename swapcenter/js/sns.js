@@ -1,16 +1,3 @@
-$(function() {
-    $(".share-facebook").click(function() {
-        window.open($(this).attr("href"), "win_facebook", "menubar=1,resizable=1,width=600,height=400");
-        return false;
-    });
-
-    $(".share-twitter").click(function() {
-        window.open($(this).attr("href"), "win_twitter", "menubar=1,resizable=1,width=600,height=350");
-        return false;
-    });
-
-    $(".share-googleplus").click(function() {
-        window.open($(this).attr("href"), "win_googleplus", "menubar=1,resizable=1,width=600,height=600");
-        return false;
-    });
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:66d964dfca79ba446b75114871c3fd89dcfeb94fbb969a9220720ca201bd7fe2
+size 559

@@ -1,32 +1,3 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, (global.FullCalendarLocales = global.FullCalendarLocales || {}, global.FullCalendarLocales.sk = factory()));
-}(this, function () { 'use strict';
-
-    var sk = {
-        code: "sk",
-        week: {
-            dow: 1,
-            doy: 4 // The week that contains Jan 4th is the first week of the year.
-        },
-        buttonText: {
-            prev: "Predchádzajúci",
-            next: "Nasledujúci",
-            today: "Dnes",
-            month: "Mesiac",
-            week: "Týždeň",
-            day: "Deň",
-            list: "Rozvrh"
-        },
-        weekLabel: "Ty",
-        allDayText: "Celý deň",
-        eventLimitText: function (n) {
-            return "+ďalšie: " + n;
-        },
-        noEventsMessage: "Žiadne akcie na zobrazenie"
-    };
-
-    return sk;
-
-}));
+version https://git-lfs.github.com/spec/v1
+oid sha256:87c1be29f6b362449495949abb6b38e8f07043b1d2020e4940046934a3058bcf
+size 1010

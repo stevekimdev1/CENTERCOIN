@@ -1,9 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../ownership/Ownable.sol";
-
-contract SelfDestructible is Ownable {
-    function destroy() public onlyOwner  {
-        selfdestruct(owner());
-    }    
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:79b3d21ea733791694de9c8f14bbf87b689c7e8ab2a3904405307dcb35b406ef
+size 186

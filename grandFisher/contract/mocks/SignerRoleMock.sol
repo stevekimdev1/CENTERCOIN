@@ -1,18 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../access/roles/SignerRole.sol";
-
-contract SignerRoleMock is SignerRole {
-    function removeSigner(address account) public {
-        _removeSigner(account);
-    }
-
-    function onlySignerMock() public view onlySigner {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-
-    // Causes a compilation error if super._removeSigner is not internal
-    function _removeSigner(address account) internal {
-        super._removeSigner(account);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:96eee80e032c445881fd7790af02e7d014a9abc6f0058e112ca8b9d9c0acc9af
+size 491

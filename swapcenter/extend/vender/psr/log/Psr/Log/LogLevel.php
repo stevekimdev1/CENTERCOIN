@@ -1,18 +1,3 @@
-<?php
-
-namespace Psr\Log;
-
-/**
- * Describes log levels.
- */
-class LogLevel
-{
-    const EMERGENCY = 'emergency';
-    const ALERT     = 'alert';
-    const CRITICAL  = 'critical';
-    const ERROR     = 'error';
-    const WARNING   = 'warning';
-    const NOTICE    = 'notice';
-    const INFO      = 'info';
-    const DEBUG     = 'debug';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f2520b22945ce1599c4fedba0a4c75985f172ca86cdf386766ebb8b2363768c
+size 336

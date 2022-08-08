@@ -1,29 +1,3 @@
-<?php
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Processor;
-
-use Monolog\TestCase;
-
-class GitProcessorTest extends TestCase
-{
-    /**
-     * @covers Monolog\Processor\GitProcessor::__invoke
-     */
-    public function testProcessor()
-    {
-        $processor = new GitProcessor();
-        $record = $processor($this->getRecord());
-
-        $this->assertArrayHasKey('git', $record['extra']);
-        $this->assertTrue(!is_array($record['extra']['git']['branch']));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2735c7f9cdbcf17bf7891db9c5ed5769e432e4e5228e519d062c7698b925d67
+size 677

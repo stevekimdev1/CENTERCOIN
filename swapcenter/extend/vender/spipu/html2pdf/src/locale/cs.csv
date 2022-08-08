@@ -1,5 +1,3 @@
-"pdf01","Dokument vytvořen dne [[date_d]].[[date_m]].[[date_y]]"
-"pdf02","Dokument vytvořen v [[date_h]]:[[date_i]]"
-"pdf03","Dokument vytvořen dne [[date_d]].[[date_m]].[[date_y]] v [[date_h]]:[[date_i]]"
-"pdf04","Stránka [[page_cu]]/[[page_nb]]"
-"pdf05","Formuláře vyžadují Adobe Reader 9"
+version https://git-lfs.github.com/spec/v1
+oid sha256:5043c6fba2d1f3a9253523ed9b66b1fdb69fe99a002454702b2523b2ac4a050c
+size 300

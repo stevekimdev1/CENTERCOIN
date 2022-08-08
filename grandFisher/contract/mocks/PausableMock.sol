@@ -1,23 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../lifecycle/Pausable.sol";
-import "./PauserRoleMock.sol";
-
-// mock class using Pausable
-contract PausableMock is Pausable, PauserRoleMock {
-    bool public drasticMeasureTaken;
-    uint256 public count;
-
-    constructor () public {
-        drasticMeasureTaken = false;
-        count = 0;
-    }
-
-    function normalProcess() external whenNotPaused {
-        count++;
-    }
-
-    function drasticMeasure() external whenPaused {
-        drasticMeasureTaken = true;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:beda9f1e63298bce39a8602ab4a3172da3114524227ecbe6f7d5e1ca081c3cc9
+size 503

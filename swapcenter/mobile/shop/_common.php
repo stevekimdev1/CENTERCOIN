@@ -1,19 +1,3 @@
-<?php
-include_once('../../common.php');
-
-if (isset($_REQUEST['sort']))  {
-    $sort = trim($_REQUEST['sort']);
-    $sort = preg_replace("/[\<\>\'\"\\\'\\\"\%\=\(\)\s]/", "", $sort);
-} else {
-    $sort = '';
-}
-
-if (isset($_REQUEST['sortodr']))  {
-    $sortodr = preg_match("/^(asc|desc)$/i", $sortodr) ? $sortodr : '';
-} else {
-    $sortodr = '';
-}
-
-if (!defined('G5_USE_SHOP') || !G5_USE_SHOP)
-    die('<p>쇼핑몰 설치 후 이용해 주십시오.</p>');
-define('_SHOP_', true);
+version https://git-lfs.github.com/spec/v1
+oid sha256:83991cef4ce049621df6866b3d6fadb7e19da3cb8c12622b40e2090198b978b9
+size 481

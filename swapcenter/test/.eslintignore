@@ -1,5 +1,3 @@
-**/*.min.js
-**/plugins/
-/dist/js/adminlte.js
-/docs/
-/docs_html/
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ce52c286177435c9dacb1ae2f7c1ef27a67de91d5b244d5150830add7cc8cec
+size 64

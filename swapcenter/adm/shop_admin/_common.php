@@ -1,12 +1,3 @@
-<?php
-define('G5_IS_ADMIN', true);
-define('G5_IS_SHOP_ADMIN_PAGE', true);
-include_once ('../../common.php');
-
-if (!defined('G5_USE_SHOP') || !G5_USE_SHOP)
-    die('<p>쇼핑몰 설치 후 이용해 주십시오.</p>');
-
-include_once(G5_ADMIN_PATH.'/admin.lib.php');
-include_once('./admin.shop.lib.php');
-
-check_order_inicis_tmps();
+version https://git-lfs.github.com/spec/v1
+oid sha256:62927be3ce409dbdb53f89a42cd0bdc72b15a036245ca9ff495c00864522db9c
+size 331

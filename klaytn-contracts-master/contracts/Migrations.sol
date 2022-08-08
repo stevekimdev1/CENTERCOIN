@@ -1,18 +1,3 @@
-pragma solidity >=0.4.21 <0.7.0;
-
-contract Migrations {
-  address public owner;
-  uint public last_completed_migration;
-
-  constructor() public {
-    owner = msg.sender;
-  }
-
-  modifier restricted() {
-    if (msg.sender == owner) _;
-  }
-
-  function setCompleted(uint completed) public restricted {
-    last_completed_migration = completed;
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d131685e5b568f36eb69896f806dd3db51bb7ed94f753e8e445f814359138108
+size 346

@@ -1,23 +1,3 @@
-pragma solidity ^0.5.0;
-
-import "../token/ERC721/IERC721Receiver.sol";
-
-contract ERC721ReceiverMock is IERC721Receiver {
-    bytes4 private _retval;
-    bool private _reverts;
-
-    event Received(address operator, address from, uint256 tokenId, bytes data, uint256 gas);
-
-    constructor (bytes4 retval, bool reverts) public {
-        _retval = retval;
-        _reverts = reverts;
-    }
-
-    function onERC721Received(address operator, address from, uint256 tokenId, bytes memory data)
-        public returns (bytes4)
-    {
-        require(!_reverts, "ERC721ReceiverMock: reverting");
-        emit Received(operator, from, tokenId, data, gasleft());
-        return _retval;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:75bf501b365c1d9738dfe5e8e3d38ad95318ff1132f76155fc88470b294f6a60
+size 682

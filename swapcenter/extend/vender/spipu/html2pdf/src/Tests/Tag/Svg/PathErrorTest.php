@@ -1,34 +1,3 @@
-<?php
-/**
- * Html2Pdf Library - Tests
- *
- * HTML => PDF converter
- * distributed under the OSL-3.0 License
- *
- * @package   Html2pdf
- * @author    Laurent MINGUET <webmaster@html2pdf.fr>
- * @copyright 2017 Laurent MINGUET
- */
-
-namespace Spipu\Html2Pdf\Tests\Tag\Svg;
-
-use Spipu\Html2Pdf\Tests\AbstractTest;
-
-/**
- * Class PathErrorTest
- */
-class PathErrorTest extends AbstractTest
-{
-    /**
-     * test
-     *
-     * @return void
-     * @expectedException \Spipu\Html2Pdf\Exception\HtmlParsingException
-     */
-    public function testCase()
-    {
-        $object = $this->getObject();
-        $object->writeHTML('<path />');
-        $object->output('test.pdf', 'S');
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a02a30e11d58c294d76d287cd4fbde9c2d06c55305de7991fcb36cb0188400a2
+size 675
