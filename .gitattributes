@@ -1,4 +1,5 @@
 *.pdf filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
 *.DS_Store filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
 *.sol filter=lfs diff=lfs merge=lfs -text
@@ -201,7 +202,6 @@
 *.ini filter=lfs diff=lfs merge=lfs -text
 *.mp3 filter=lfs diff=lfs merge=lfs -text
 /swapcenter/plugin/kcpcert/bin/ct_cli filter=lfs diff=lfs merge=lfs -text
-*.exe filter=lfs diff=lfs merge=lfs -text
 /swapcenter/plugin/kcpcert/bin/ct_cli_x64 filter=lfs diff=lfs merge=lfs -text
 *.conf filter=lfs diff=lfs merge=lfs -text
 *.dll filter=lfs diff=lfs merge=lfs -text
